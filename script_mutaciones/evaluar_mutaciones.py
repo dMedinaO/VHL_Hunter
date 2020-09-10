@@ -6,6 +6,9 @@ from Bio.SeqRecord import SeqRecord
 from Bio.Seq import Seq
 import argparse
 import numpy as np
+#Toma las mutaciones missense culumna por columna y transforma la proteína en lo que diga la mutación. 
+
+
 parser = argparse.ArgumentParser()
 parser.add_argument("mutations", help = ".csv with mutations described in columns wt;col;mut (wild type aminoacid, position in chain and mutated aminoacid)")
 parser.add_argument("protein", help = ".fasta file with a protein to mutate")
