@@ -19,4 +19,5 @@ for i in range(data.shape[0]):
 con = MongoClient('localhost',27017)
 db = con.VHL_Hunter
 coleccion = db.Mutations
+coleccion.delete_many({})
 coleccion.insert_many(arreglo, ordered = True)

@@ -1,6 +1,6 @@
-tion_aa	Mutation_type	VHL_type	Disease	Pubmed_ID
-p.Q96_P97delinsH	Deletion Insertion	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumor", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8634692
-p.Q96_P97delinsH	Deletion Insertion	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Hemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumor", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8634692
+Mutation_aa	Mutation_type	VHL_type	Disease	Pubmed_ID
+p.Q96_P97delinsH	Deletion Insertion	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8634692
+p.Q96_P97delinsH	Deletion Insertion	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8634692
 p.T100_G106delinsS	Deletion Insertion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10340905
 p.E70_F73delinsV	Deletion Insertion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/21715564
 p.I75_V84delinsM	Deletion Insertion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/21715564
@@ -42,13 +42,13 @@ p.120insGHLWLF	Insertion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih
 p.150insH	Insertion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/24504440
 p.67insD	Insertion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/24727139
 p.70insQ	Insertion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/7915601
-p.114insG	Insertion		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Hemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
+p.114insG	Insertion		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.151insY	Insertion		{"Effect": "Renal Cell Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/22642103
 p.133insINQ	Insertion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/11505222
 p.108insTG	Insertion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/11921283
 p.151insY	Insertion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/28853079
 p.78insY	Insertion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/7881415
-p.R82_V84del	Range Deletion		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Hemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
+p.R82_V84del	Range Deletion		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.L178_I180del	Range Deletion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10408776
 p.D187_N193del	Range Deletion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10766184
 p.I147_F148del	Range Deletion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10766184
@@ -70,7 +70,7 @@ p.L188_D190del	Range Deletion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nl
 p.P59_P61del	Range Deletion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/7881415
 p.D121_A122del	Range Deletion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/7915601
 p.S43_E47del	Range Deletion		{"Effect": "Adenocarcinoma", "Site": "Lung"}	pubmed.ncbi.nlm.nih.gov/28481359
-p.T105_H110del	Range Deletion		{"Effect": "Carcinoid Endocrine TUmour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28481359
+p.T105_H110del	Range Deletion		{"Effect": "Carcinoid Endocrine Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28481359
 p.E55_R64del	Range Deletion		{"Effect": "Pheochromocytoma", "Site": "Adrenal"}	pubmed.ncbi.nlm.nih.gov/24466223
 p.D187_N193del	Range Deletion		{"Effect": "Renal Cell Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/10766184
 p.I147_F148del	Range Deletion		{"Effect": "Renal Cell Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/10766184
@@ -117,18 +117,18 @@ p.R79_S80del	Range Deletion		{"Effect": "Renal Cell Carcinoma", "Site": "Kidney"
 p.Y175_I180del	Range Deletion		{"Effect": "Renal Cell Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/28481359
 p.P59_P61del	Range Deletion		{"Effect": "Renal Cell Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/7881415
 p.D121_A122del	Range Deletion		{"Effect": "Renal Cell Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/7915601
-p.E70_R79dup	Range Duplication		{"Effect": "Pancreas", "Site": "Adenoma"}	pubmed.ncbi.nlm.nih.gov/28481359
+p.E70_R79dup	Range Duplication		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28481359
 p.T105_G106dup	Range Duplication		{"Effect": "Renal Cell Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/11921283
 p.G114_F119dup	Range Duplication		{"Effect": "Renal Cell Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/23558940
-p.F76del	Single Deletion	1	{"Effect": "Hemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/12624160
-p.F76del	Single Deletion	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Hemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/10631138
+p.F76del	Single Deletion	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/12624160
+p.F76del	Single Deletion	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/10631138
 p.F76del	Single Deletion	1		pubmed.ncbi.nlm.nih.gov/7728151
 p.E186del	Single Deletion	1		pubmed.ncbi.nlm.nih.gov/8730290
 p.F76del	Single Deletion	1		pubmed.ncbi.nlm.nih.gov/8956040
 p.F76del	Single Deletion	1		pubmed.ncbi.nlm.nih.gov/9829911
-p.F76del	Single Deletion		{"Effect": "Hemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/12114495
-p.C77del	Single Deletion		{"Effect": "Hemangioblastoma", "Site": "Ocular"}	pubmed.ncbi.nlm.nih.gov/10088816
-p.F76del	Single Deletion		{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Hemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/29124493
+p.F76del	Single Deletion		{"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/12114495
+p.C77del	Single Deletion		{"Effect": "Haemangioblastoma", "Site": "Ocular"}	pubmed.ncbi.nlm.nih.gov/10088816
+p.F76del	Single Deletion		{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/29124493
 p.F76del	Single Deletion		{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/29124493
 p.R69del	Single Deletion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10766184
 p.A5del	Single Deletion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/11051223
@@ -144,57 +144,57 @@ p.F76del	Single Deletion		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih
 p.F136dup	Single Duplication		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/7915601
 p.V166dup	Single Duplication		{"Effect": "Renal Cell Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/11505222
 p.N78dup	Single Duplication		{"Effect": "Renal Cell Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/19755989
-p.Q73R	Missense	1	{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Tumour"}	pubmed.ncbi.nlm.nih.gov/10408561
-p.N78S	Missense	1	{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/7728151
-p.C162W	Missense	1	{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site":"Pancreas"}	pubmed.ncbi.nlm.nih.gov/7728151
+p.Q73R	Missense	1	{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Tumour"}	pubmed.ncbi.nlm.nih.gov/10408561
+p.N78S	Missense	1	{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/7728151
+p.C162W	Missense	1	{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site":"Pancreas"}	pubmed.ncbi.nlm.nih.gov/7728151
 p.R107P	Missense	1	{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Paraganglioma"}	pubmed.ncbi.nlm.nih.gov/12624160
 p.S80R	Missense	1	{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/12624160
-p.V74G	Missense	1	{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Tumour", "Site": "Neuroectodermal"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.V74G	Missense	1	{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Tumour", "Site": "Neuroectodermal"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/8707293
 p.W88R	Missense	1	{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12624160
 p.N78H	Missense	1	{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/7728151
 p.P86L	Missense	1	{"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/7728151
 p.H115Y	Missense	1	{"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/8707293
-p.W88S	Missense	1	{"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.Y112N	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.W88S	Missense	1	{"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.Y112N	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
 p.Q73R	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.N78S	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Epididymus"}	pubmed.ncbi.nlm.nih.gov/8707293
-p.W117C	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.S111N	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/28849724
-p.N90I	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Cyst"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.R167Q	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/27439424
-p.N78D	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/27439424
-p.Q96P	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.W117C	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.Y112N	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.W117G	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Epididymus"}	pubmed.ncbi.nlm.nih.gov/24581539
+p.N78S	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Epididymus"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.W117C	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.S111N	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/28849724
+p.N90I	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Cyst Adenoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.R167Q	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/27439424
+p.N78D	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/27439424
+p.Q96P	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.W117C	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.Y112N	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.W117G	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Epididymus"}	pubmed.ncbi.nlm.nih.gov/24581539
 p.C162R	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/8641976
-p.R167W	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Epididymus"}, {"Effect": "Cyst", "Site": "Ovarius"}	pubmed.ncbi.nlm.nih.gov/22357542
-p.S65W	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22357542
-p.W117S	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/24581539
-p.N90I	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Tumour"}	pubmed.ncbi.nlm.nih.gov/22357542
-p.H115R	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22357542
+p.R167W	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Epididymus"}, {"Effect": "Cyst Adenoma", "Site": "Ovarius"}	pubmed.ncbi.nlm.nih.gov/22357542
+p.S65W	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22357542
+p.W117S	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/24581539
+p.N90I	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Tumour"}	pubmed.ncbi.nlm.nih.gov/22357542
+p.H115R	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22357542
 p.N78S	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/7728151
 p.L178P	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/7728151
 p.L184P	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/7728151
 p.S111N	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/7728151
-p.G93D	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.G93D	Missense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10761708
 p.C162R	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Brain Stem"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/8641976
-p.L140P	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Haemangioblastoma", "Site": "Cerebro-Spinal"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/10563480
-p.N78H	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Haemangioblastoma", "Site": "Spinal"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/7728151
+p.L140P	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Haemangioblastoma", "Site": "Cerebro-Spinal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/10563480
+p.N78H	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Haemangioblastoma", "Site": "Spinal"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/7728151
 p.P81S	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.nlm.nih.gov/10761708
 p.P81S	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.nlm.nih.gov/20151405
 p.S183C	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.nlm.nih.gov/8758206
-p.N78S	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/27439424
-p.N78S	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.C162R	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.G93D	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.N78S	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/27439424
+p.N78S	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.C162R	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.G93D	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10761708
 p.W117C	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/7728151
-p.V74G	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Tumour", "Site": "Neuroectodermal"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.V74G	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Tumour", "Site": "Neuroectodermal"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/8707293
 p.W88R	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12624160
-p.R167W	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/27439424
-p.Y98N	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/24581539
-p.L178R	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour"}	pubmed.ncbi.nlm.nih.gov/22357542
-p.R167Q	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/27439424
+p.R167W	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/27439424
+p.Y98N	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/24581539
+p.L178R	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour"}	pubmed.ncbi.nlm.nih.gov/22357542
+p.R167Q	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/27439424
 p.R107P	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Paraganglioma"}	pubmed.ncbi.nlm.nih.gov/12624160
 p.R167Q	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10761708
 p.S80R	Missense	1	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/12624160
@@ -240,52 +240,52 @@ p.S111R	Missense	1	{"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/77281
 p.C162Y	Missense	1	{"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/8634692
 p.P81S	Missense	1	{"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/8634692
 p.L158V	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/21715564
-p.Y98H	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/8707293
-p.S80N	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Islet Cell Tumour", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.Y98H	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.S80N	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Islet Cell Tumour", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8707293
 p.F136S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12624160
 p.P146L	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12624160
 p.V194A	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/7977367
-p.L118P	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.W88S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8634692
-p.L118P	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8270255
-p.Y112N	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/10533030
-p.V130F	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cystadenoma", "Site": "Pancreas"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12624160
-p.V130F	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cystadenoma", "Site": "Pancreas"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12624160
-p.P81S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8707293
-p.S111R	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.V155L	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/20151405
-p.P86S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/20151405
-p.N78S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/15109448
-p.V130F	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
-p.L89P	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreatic"}	pubmed.ncbi.nlm.nih.gov/8707293
-p.G93D	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Pancreas", "Site": "Cyst"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8956040
+p.L118P	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.W88S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8634692
+p.L118P	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8270255
+p.Y112N	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/10533030
+p.V130F	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12624160
+p.V130F	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12624160
+p.P81S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.S111R	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.V155L	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/20151405
+p.P86S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/20151405
+p.N78S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/15109448
+p.V130F	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.L89P	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreatic"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.G93D	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma" , "Site":"Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8956040
 p.R167Q	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/9829912
-p.N90I	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Tumour"}	pubmed.ncbi.nlm.nih.gov/20151405
-p.G93D	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/20151405
-p.Q96P	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/20151405
-p.N90I	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/7915601
-p.Q96P	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8730290
-p.G93D	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8956040
-p.P81S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8707293
-p.L129W	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8707293
-p.G93D	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/20151405
-p.S111R	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.C162R	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/20151405
-p.L89P	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.N90I	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Tumour"}	pubmed.ncbi.nlm.nih.gov/20151405
+p.G93D	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/20151405
+p.Q96P	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/20151405
+p.N90I	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/7915601
+p.Q96P	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8730290
+p.G93D	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8956040
+p.P81S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.L129W	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.G93D	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/20151405
+p.S111R	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.C162R	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/20151405
+p.L89P	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8707293
 p.P86S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/20151405
-p.C162R	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8829648
-p.N78S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/15109448
-p.Y98H	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/8707293
-p.C162W	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8707293
-p.H115R	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Epididymus"}, {"Effect": "Angioma", "Site": "Liver"}	pubmed.ncbi.nlm.nih.gov/8707293
-p.S80N	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Islet Cell Tumour", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.C162R	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8829648
+p.N78S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/15109448
+p.Y98H	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.C162W	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.H115R	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Epididymus"}, {"Effect": "Angioma", "Site": "Liver"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.S80N	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Islet Cell Tumour", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8707293
 p.F136S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12624160
 p.L178P	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/7728151
 p.P81S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/10761708
 p.E186K	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/25078357
 p.P81S	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/7553625
-p.I151F	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Sac Tumour"}, {"Effect": "Cyst", "Site": "Epididymus"}	pubmed.ncbi.nlm.nih.gov/22357542
-p.Y112N	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/10533030
+p.I151F	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Sac Tumour"}, {"Effect": "Cyst Adenoma", "Site": "Epididymus"}	pubmed.ncbi.nlm.nih.gov/22357542
+p.Y112N	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/10533030
 p.W117C	Missense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/21715564
 p.R167W	Missense	1	{"Effect": "Renal Cell Carcinoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/24581539
 p.N90I	Missense	1	{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10761708
@@ -446,10 +446,10 @@ p.T105P	Missense	1		pubmed.ncbi.nlm.nih.gov/9829912
 p.W117C	Missense	1		pubmed.ncbi.nlm.nih.gov/9829912
 p.W88S	Missense	1		pubmed.ncbi.nlm.nih.gov/9829912
 p.V170G	Missense	1		pubmed.ncbi.nlm.nih.gov/9829912
-p.P86S	Missense	2A	{"Effect": "Haemangioblastoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Liver"}	pubmed.ncbi.nlm.nih.gov/27057652
+p.P86S	Missense	2A	{"Effect": "Haemangioblastoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Liver"}	pubmed.ncbi.nlm.nih.gov/27057652
 p.R167W	Missense	2A	{"Effect": "Haemangioblastoma"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/25078357
 p.T157I	Missense	2A	{"Effect": "Haemangioblastoma"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/25078357
-p.V130L	Missense	2A	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/24581539
+p.V130L	Missense	2A	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/24581539
 p.R167Q	Missense	2A	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/24581539
 p.T157I	Missense	2A	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/25078357
 p.Y98H	Missense	2A	{"Effect": "Pheochromocytoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/7728151
@@ -463,7 +463,7 @@ p.V166F	Missense	2A	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastom
 p.L178Q	Missense	2A	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/8707293
 p.L178Q	Missense	2A	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/10533077
 p.V166F	Missense	2A	{"Effect": "Pheochromocytoma", "Site": "Abdominal"}, {"Effect": "Paraganglioma"}	pubmed.ncbi.nlm.nih.gov/8550742
-p.L178Q	Missense	2A	{"Effect": "Pheochromocytoma"}, {"Effect":  "Angiomas", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.L178Q	Missense	2A	{"Effect": "Pheochromocytoma"}, {"Effect":  "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/8707293
 p.Y112N	Missense	2A	{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/10533030
 p.V166F	Missense	2A	{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/8550742
 p.Y112H	Missense	2A	{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/8863170
@@ -472,8 +472,8 @@ p.R167W	Missense	2A	{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/98299
 p.N131K	Missense	2A	{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9829912
 p.T157I	Missense	2A	{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9829912
 p.V166F	Missense	2A	{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9829912
-p.L178Q	Missense	2A	{"Effect": "Pheocromorytoma"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/10533077
-p.R167W	Missense	2A	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/24581539
+p.L178Q	Missense	2A	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/10533077
+p.R167W	Missense	2A	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/24581539
 p.F119L	Missense	2A		pubmed.ncbi.nlm.nih.gov/16142346
 p.L158P	Missense	2A		pubmed.ncbi.nlm.nih.gov/7915601
 p.V166F	Missense	2A		pubmed.ncbi.nlm.nih.gov/8550742
@@ -484,36 +484,36 @@ p.N131K	Missense	2A		pubmed.ncbi.nlm.nih.gov/9829912
 p.M54I	Missense	2A		pubmed.ncbi.nlm.nih.gov/9829912
 p.T157I	Missense	2A		pubmed.ncbi.nlm.nih.gov/9829912
 p.V166F	Missense	2A		pubmed.ncbi.nlm.nih.gov/9829912
-p.P86S	Missense	2B	{"Effect": "Haemangioblastoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/27057652
-p.R167W	Missense	2B	{"Effect": "Haemangioblastoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/27439424
+p.P86S	Missense	2B	{"Effect": "Haemangioblastoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/27057652
+p.R167W	Missense	2B	{"Effect": "Haemangioblastoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/27439424
 p.P154L	Missense	2B	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.R167Q	Missense	2B	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.R167W	Missense	2B	{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.A149S	Missense	2B	{"Effect": "Haemangioblastoma", "Site": "Spinal"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/23673869
-p.R167Q	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9829912
-p.P86S	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9829912
-p.R167Q	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9829912
-p.R167W	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9829912
-p.Y156D	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9829912
-p.R82P	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9829912
-p.C162W	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9829912
+p.R167Q	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9829912
+p.P86S	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9829912
+p.R167Q	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9829912
+p.R167W	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9829912
+p.Y156D	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9829912
+p.R82P	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9829912
+p.C162W	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9829912
 p.A149S	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/23673869
-p.R161G	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.R161G	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/8707293
 p.R167W	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Haemangioblastoma", "Site": "Spinal"}	pubmed.ncbi.nlm.nih.gov/9829911
-p.V170D	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
-p.V170D	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
-p.R161G	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/8707293
-p.A149S	Missense	2B	{"Effect": "Pheochromocytoma", "Site": "Adrenal"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/23673869
+p.V170D	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.V170D	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.R161G	Missense	2B	{"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.A149S	Missense	2B	{"Effect": "Pheochromocytoma", "Site": "Adrenal"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/23673869
 p.A149S	Missense	2B	{"Effect": "Pheochromocytoma", "Site": "Adrenal"}	pubmed.ncbi.nlm.nih.gov/23673869
-p.P86S	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/22357542
-p.C162Y	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.V74G	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Adenoma", "Site": "Epididymus"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.P86S	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/22357542
+p.C162Y	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.V74G	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Epididymus"}	pubmed.ncbi.nlm.nih.gov/8707293
 p.R167Q	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/9829912
 p.R167W	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/9829911
-p.L158V	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site":"Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.L158V	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Cyst"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.C162Y	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Cysts"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.V74G	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Epididymus"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.L158V	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site":"Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.L158V	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Cyst Adenoma"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.C162Y	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Cyst Adenoma"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.V74G	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Epididymus"}	pubmed.ncbi.nlm.nih.gov/8707293
 p.R167Q	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/8707293
 p.R167W	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/10761708
 p.R167W	Missense	2B	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/10761708
@@ -563,13 +563,13 @@ p.R167Q	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Angioma", "Site":
 p.R167Q	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/10761708
 p.R167Q	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/12114495
 p.T124I	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/12624160
-p.R161G	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/10612832
-p.R161G	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/10612832
-p.R167Q	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.R161G	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/10612832
+p.R161G	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/10612832
+p.R167Q	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
 p.R167Q	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/17661816
 p.R167W	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.N131S	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.R167Q	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Tumour"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.N131S	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.R167Q	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Tumour"}	pubmed.ncbi.nlm.nih.gov/10761708
 p.R167Q	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/17661816
 p.R167Q	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/7728151
 p.R167W	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/9156047
@@ -594,7 +594,7 @@ p.R161Q	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Paraganglioma"}	p
 p.L118P	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.L118P	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.L188V	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Tumour", "Site": "Thyroid"}	pubmed.ncbi.nlm.nih.gov/8707293
-p.R161G	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/10612832
+p.R161G	Missense	2	{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/10612832
 p.R167Q	Missense	2	{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.goe/7987306
 p.C162Y	Missense	2	{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/12807974
 p.F119L	Missense	2	{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/16142346
@@ -642,8 +642,8 @@ p.G114R	Missense	2	{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/982991
 p.L128F	Missense	2	{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9829911
 p.L188P	Missense	2	{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9829911
 p.S111C	Missense	2	{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9829911
-p.R167W	Missense	2	{"Effect": "Pheocromocytoma", "Site": "Cerebel"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/9156047
-p.R167W	Missense	2	{"Effect": "Pheocromocytoma"}	pubmed.ncbi.nlm.nih.gov/9156047
+p.R167W	Missense	2	{"Effect": "Pheochromocytoma", "Site": "Cerebel"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/9156047
+p.R167W	Missense	2	{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9156047
 p.P86R	Missense	2	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.T157I	Missense	2	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/8634692
 p.R161G	Missense	2		pubmed.ncbi.nlm.nih.gov/10612832
@@ -706,13 +706,13 @@ p.G127V	Missense		{"Effect": "Adenocarcinoma"}	pubmed.ncbi.nlm.nih.gov/22895193
 p.G29D	Missense		{"Effect": "Adenocarcinoma"}	pubmed.ncbi.nlm.nih.gov/22895193
 p.L201P	Missense		{"Effect": "Adenocarcinoma"}	pubmed.ncbi.nlm.nih.gov/22895193
 p.S139P	Missense		{"Effect": "Adenocarcinoma"}	pubmed.ncbi.nlm.nih.gov/25344691
-p.D121D	Missense		{"Effect": "Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9327728
-p.P71R	Missense		{"Effect": "Adenoma"}	pubmed.ncbi.nlm.nih.gov/22158988
-p.R167Q	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
-p.R167Q	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/14722919
-p.R167W	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
-p.S111N	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Spinal"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/14722919
-p.L184P	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Spinal"}, {"Effect": "Haemangioblastoma", "Site": "Spinal"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.D121D	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9327728
+p.P71R	Missense		{"Effect": "Cyst Adenoma"}	pubmed.ncbi.nlm.nih.gov/22158988
+p.R167Q	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.R167Q	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.R167W	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.S111N	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Spinal"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.L184P	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Spinal"}, {"Effect": "Haemangioblastoma", "Site": "Spinal"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
 p.C162Y	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12114495
 p.S111R	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12114495
 p.S65L	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12114495
@@ -724,8 +724,8 @@ p.L89P	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangiob
 p.P59R	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.P86L	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.S72P	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
-p.R167W	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
-p.C162Y	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.R167W	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.C162Y	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/14722919
 p.R167W	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/14722919
 p.N78S	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/12114495
 p.N78S	Missense		{"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/12114495
@@ -763,73 +763,73 @@ p.L201P	Missense		{"Effect": "Cancer", "Site": "Colorectal"}	pubmed.ncbi.nlm.nih
 p.D179N	Missense		{"Effect": "Carcinoma", "Site": "Colorectal"}	pubmed.ncbi.nlm.nih.gov/14965365
 p.R182K	Missense		{"Effect": "Carcinoma", "Site": "Colorectal"}	pubmed.ncbi.nlm.nih.gov/14965365
 p.E204D	Missense		{"Effect": "Carcinoma", "Site": "Colorectal"}	pubmed.ncbi.nlm.nih.gov/14965365
-p.W117L	Missense		{"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
-p.R167W	Missense		{"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22357542
-p.P86A	Missense		{"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.V87E	Missense		{"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.C162W	Missense		{"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.C162W	Missense		{"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
-p.S80R	Missense		{"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
-p.W117G	Missense		{"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/24581539
-p.N78S	Missense		{"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.N90I	Missense		{"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.S65L	Missense		{"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.W117G	Missense		{"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.Y98S	Missense		{"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.N78S	Missense		{"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
-p.W117G	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.I151S	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.W117R	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.W117L	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
+p.R167W	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22357542
+p.P86A	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.V87E	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.C162W	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.C162W	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
+p.S80R	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
+p.W117G	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/24581539
+p.N78S	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.N90I	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.S65L	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.W117G	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.Y98S	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.N78S	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
+p.W117G	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.I151S	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.W117R	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
 p.V155L	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/17661816
-p.T152P	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Epididymus"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
-p.T152P	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Epididymus"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
-p.R167W	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Liver"}	pubmed.ncbi.nlm.nih.gov/20151405
-p.S65W	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.V66G	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.R167Q	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.N78S	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.R167P	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.R167W	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.R82P	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.L89P	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.S65L	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.P86L	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10697963
-p.N78S	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
-p.N78S	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
-p.E189K	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/17661816
-p.R167Q	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.L188R	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.R120G	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.T152P	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Epididymus"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.T152P	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Epididymus"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.R167W	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Liver"}	pubmed.ncbi.nlm.nih.gov/20151405
+p.S65W	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.V66G	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.R167Q	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.N78S	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.R167P	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.R167W	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.R82P	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.L89P	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.S65L	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.P86L	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10697963
+p.N78S	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.N78S	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.E189K	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.R167Q	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.L188R	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.R120G	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
 p.R161Q	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.W117G	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.Y98N	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.W117G	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.Y98N	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
 p.W117G	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/24581539
 p.W117G	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/28388566
 p.R167Q	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Mucoepidermoid Carcinoma"}	pubmed.ncbi.nlm.nih.gov/28006088
-p.R167G	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/29179968
+p.R167G	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/29179968
 p.R120G	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/20151405
 p.R167W	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/21463266
 p.R167Q	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
 p.V170D	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9681858
-p.E70K	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "PNET"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Central Nervous System"}	pubmed.ncbi.nlm.nih.gov/19270817
-p.V130L	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.H115R	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.W117R	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.W117S	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.L89P	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/20151405
-p.R161Q	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Tumour"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.C162Y	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Tumour"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.C162W	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.R167Q	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.R167W	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.N90I	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.R167Q	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.N78S	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.N90I	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.P86S	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.S65L	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.S65W	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.V170D	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.E70K	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "PNET"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Central Nervous System"}	pubmed.ncbi.nlm.nih.gov/19270817
+p.V130L	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.H115R	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.W117R	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.W117S	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.L89P	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/20151405
+p.R161Q	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Tumour"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.C162Y	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Tumour"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.C162W	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.R167Q	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.R167W	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.N90I	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.R167Q	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.N78S	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.N90I	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.P86S	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.S65L	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.S65W	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.V170D	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
 p.E70K	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/25078357
 p.V170D	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9681858
 p.L128P	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/25078357
@@ -838,8 +838,8 @@ p.I151S	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcin
 p.L178R	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/28388566
 p.V170D	Missense		{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/9681858
 p.S111N	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/10088816
-p.V130L	Missense		{"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
-p.P86L	Missense		{"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/10697963
+p.V130L	Missense		{"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.P86L	Missense		{"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/10697963
 p.S65L	Missense		{"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/14722919
 p.M54G	Missense		{"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.nlm.nih.gov/8758206
 p.N78S	Missense		{"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.nlm.nih.gov/12405390
@@ -860,44 +860,44 @@ p.F91L	Missense		{"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.
 p.V170D	Missense		{"Effect": "Haemangioblastoma", "Site": "Intra-medulary"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9681858
 p.L178R	Missense		{"Effect": "Haemangioblastoma", "Site": "Ocular"}	pubmed.ncbi.nlm.nih.gov/10088816
 p.S111R	Missense		{"Effect": "Haemangioblastoma", "Site": "Ocular"}	pubmed.ncbi.nlm.nih.gov/10088816
-p.I151N	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.I151N	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
 p.N78S	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.S65P	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.A149S	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/9435426
-p.R167Q	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.N78S	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.P86A	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.C162F	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.L178P	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.R167Q	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.H115Y	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.R167W	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.D121G	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/14722919
-p.L153P	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.N78H	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/8641976
-p.L158V	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
-p.R167Q	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/14722919
-p.L158V	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
-p.R167W	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
-p.L128R	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.R167Q	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.N78S	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.P86A	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.C162F	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.L178P	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.R167Q	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.H115Y	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.R167W	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.D121G	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.L153P	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.N78H	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/8641976
+p.L158V	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.R167Q	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.L158V	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.R167W	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.L128R	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
 p.F136S	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.S111N	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.S65L	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.P86L	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.nlm.nih.gov/10697963
 p.P86L	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.S72P	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.nlm.nih.gov/17024664
-p.L184P	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Spinal"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
-p.S111N	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Spinal"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.L184P	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Spinal"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.S111N	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Spinal"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/14722919
 p.C162Y	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12114495
 p.H115P	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.L128R	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.L158V	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.L158V	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/20151405
-p.R167W	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
-p.C162Y	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/14722919
-p.R161G	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.G93R	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.S80I	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.R167W	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.C162Y	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/14722919
+p.R161G	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.G93R	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.S80I	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
 p.R167W	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/14722919
 p.R167L	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/21463266
 p.R167W	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/21463266
@@ -909,11 +909,11 @@ p.V155G	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": 
 p.V170G	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/21463266
 p.R167Q	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
 p.V170D	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9681858
-p.F136C	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.S80I	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.W88S	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.L178R	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.P86S	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.F136C	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.S80I	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.W88S	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.L178R	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.P86S	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
 p.V170D	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9681858
 p.P86R	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.L184R	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/21463266
@@ -1045,8 +1045,8 @@ p.N150K	Missense		{"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/864197
 p.C162R	Missense		{"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/8829648
 p.A149S	Missense		{"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/9435426
 p.V170D	Missense		{"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/9681858
-p.R167W	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.P86R	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.R167W	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.P86R	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
 p.S111C	Missense		{"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/12202531
 p.L89H	Missense		{"Effect": "Mesothelioma"}	pubmed.ncbi.nlm.nih.gov/8183553
 p.R210W	Missense		{"Effect": "Oligoastrocytoma", "Site": "Left Frontal Lobe"}	pubmed.ncbi.nlm.nih.gov/9067265
@@ -1058,16 +1058,16 @@ p.R64P	Missense		{"Effect": "Paraganglioma", "Site": "Adrenal"}	pubmed.ncbi.nlm.
 p.V166F	Missense		{"Effect": "Paraganglioma"}	pubmed.ncbi.nlm.nih.gov/21784903
 p.L198R	Missense		{"Effect": "Paraganglioma"}	pubmed.ncbi.nlm.nih.gov/24694336
 p.S183W	Missense		{"Effect": "Paraganglioma"}	pubmed.ncbi.nlm.nih.gov/29124493
-p.E160V	Missense		{"Effect": "Pheochoromocytoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/27539324
+p.E160V	Missense		{"Effect": "Pheochoromocytoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/27539324
 p.A149S	Missense		{"Effect": "Pheochromocytoma", "Site": "Adrenal"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/23673869
 p.G57E	Missense		{"Effect": "Pheochromocytoma", "Site": "Adrenal"}	pubmed.ncbi.nlm.nih.gov/12673678
 p.R82G	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Angioma", "Site": "Cerebel"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/28781534
 p.R167Q	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.nlm.nih.gov/14722919
 p.V155E	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
-p.P81S	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Islet cell tumor", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.E160V	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/29124493
-p.R167W	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/29124493
-p.R167Q	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/29124493
+p.P81S	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Islet Cell Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.E160V	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/29124493
+p.R167W	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/29124493
+p.R167Q	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/29124493
 p.Y98S	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "PNET"}	pubmed.ncbi.nlm.nih.gov/27539324
 p.Y98S	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "PNET"}	pubmed.ncbi.nlm.nih.gov/29124493
 p.A149S	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/9435426
@@ -1079,9 +1079,9 @@ p.R167Q	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"
 p.R161Q	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/29022557
 p.L163F	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/29124493
 p.A149S	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/9435426
-p.R167W	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Paraganglioma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "PNET"}	pubmed.ncbi.nlm.nih.gov/29124493
-p.Y98S	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Paraganglioma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/27539324
-p.R167W	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Paraganglioma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "PNET"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/27539324
+p.R167W	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Paraganglioma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "PNET"}	pubmed.ncbi.nlm.nih.gov/29124493
+p.Y98S	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Paraganglioma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/27539324
+p.R167W	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Paraganglioma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "PNET"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/27539324
 p.Y98S	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Paraganglioma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "PNET"}	pubmed.ncbi.nlm.nih.gov/29124493
 p.R167W	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Paraganglioma"}, {"Effect": "PNET"}	pubmed.ncbi.nlm.nih.gov/27539324
 p.R161Q	Missense		{"Effect": "Pheochromocytoma"}, {"Effect": "Paraganglioma"}, {"Effect": "PNET"}	pubmed.ncbi.nlm.nih.gov/29124493
@@ -1211,7 +1211,7 @@ p.I147T	Missense		{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9663592
 p.L63P	Missense		{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9663592
 p.P25L	Missense		{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9663592
 p.R161Q	Missense		{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9829911
-p.S80G	Missense		{"Effect": "Pheochromocytomas"}	pubmed.ncbi.nlm.nih.gov/9215674
+p.S80G	Missense		{"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/9215674
 p.R167G	Missense		{"Effect": "PNET"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/29179968
 p.D126Y	Missense		{"Effect": "Polycythemia"}, {"Effect": "Angioma", "Site": "Pulmon"}, {"Effect": "Angioma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/12844285
 p.Y175C	Missense		{"Effect": "Polycythemia"}, {"Effect": "Ataxia Telangiectasia"}	pubmed.ncbi.nlm.nih.gov/15642680
@@ -1234,11 +1234,11 @@ p.H191D	Missense		{"Effect": "Polycythemia"}	pubmed.ncbi.nlm.nih.gov/23403324
 p.P138L	Missense		{"Effect": "Polycythemia"}	pubmed.ncbi.nlm.nih.gov/23538339
 p.D126N	Missense		{"Effect": "Polycythemia"}	pubmed.ncbi.nlm.nih.gov/24729484
 p.R200W	Missense		{"Effect": "Polycythemia"}	pubmed.ncbi.nlm.nih.gov/7553625
-p.I151F	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.S65L	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.I151F	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.S65L	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
 p.T157I	Missense		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10340905
 p.V170G	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Pheochromocytoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/17024664
-p.H115R	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Adenoma", "Site": "Epididymus"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.H115R	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Epididymus"}	pubmed.ncbi.nlm.nih.gov/8707293
 p.N78I	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12114495
 p.S65L	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12114495
 p.N131T	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
@@ -1249,25 +1249,25 @@ p.L178P	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Sit
 p.S65W	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.W88R	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.L169P	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/17024664
-p.R167W	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.L85P	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.S65W	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.C162W	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Tumour"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
-p.P86L	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
-p.V155L	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.S65W	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.R167W	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.L85P	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.S65W	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.C162W	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Tumour"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/28388566
+p.P86L	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/21463266
+p.V155L	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.S65W	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
 p.C162R	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/19270817
 p.L178P	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/7728151
-p.R167Q	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angiomas", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
-p.R167Q	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angiomas", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/17661816
-p.S65L	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Epididymus"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
-p.S65L	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Epididymus"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
-p.S65W	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
-p.V130F	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.R167Q	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.R167Q	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.S65L	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Epididymus"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.S65L	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Epididymus"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.S65W	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.V130F	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/17661816
 p.R167Q	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/17661816
 p.C162R	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/19270817
-p.L128P	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "PNET"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Central Nervous System"}	pubmed.ncbi.nlm.nih.gov/19270817
-p.R167Q	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.L128P	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "PNET"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Central Nervous System"}	pubmed.ncbi.nlm.nih.gov/19270817
+p.R167Q	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Pheochromocytoma"}	pubmed.ncbi.nlm.nih.gov/17661816
 p.S65W	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.N78I	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12114495
 p.S65L	Missense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12114495
@@ -1921,44 +1921,44 @@ p.S80R	Missense		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/9829
 p.N78S	Missense		{"Effect": "Retinal Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/12114495
 p.G106D	Missense		{"Effect": "Small Cell Lung Cancer"}	pubmed.ncbi.nlm.nih.gov/8183553
 p.L163R	Missense		{"Effect": "Small intestine neuroendocrine tumors"}	pubmed.ncbi.nlm.nih.gov/23676460
-p.R167G	Missense		{"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/29179968
+p.R167G	Missense		{"Effect": "Tumour", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/29179968
 p.A11T	Missense		{"Effect": "Tumour"}	pubmed.ncbi.nlm.nih.gov/19933033
 p.P25L	Missense		{"Effect": "Adenocarcinoma", "Site": "Biliary tract"}	pubmed.ncbi.nlm.nih.gov/25536104
 p.P25L	Missense		{"Effect": "Adenocarcinoma", "Site": "Biliary tract"}	pubmed.ncbi.nlm.nih.gov/26500333
-p.A207T	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
-p.R167W	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
-p.R176K	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
-p.R182K	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
-p.D179A	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
-p.D179N	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
-p.E160K	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
-p.E204D	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
-p.L118P	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
-p.W117R	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
-p.V166I	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
-p.R205H	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/22895193
-p.G127V	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/22895193
-p.G29D	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/22895193
-p.L201P	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/22895193
-p.S139P	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/25344691
-p.E199G	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/25617745
-p.G144R	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/27149842
-p.L158P	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/27149842
-p.R200W	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
-p.E189V	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
-p.H110Y	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
-p.L140F	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
-p.P102L	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
-p.P102S	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
-p.P192L	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
-p.T105M	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
-p.T152I	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
-p.Y185F	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
-p.E22K	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/28481359
-p.M211V	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/28481359
-p.P71T	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/28481359
-p.R200W	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/29937994
-p.E189K	Missense		{"Effect": "Adenocarcinoma", "Site": "Large intestine"}	pubmed.ncbi.nlm.nih.gov/30200630
+p.A207T	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
+p.R167W	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
+p.R176K	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
+p.R182K	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
+p.D179A	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
+p.D179N	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
+p.E160K	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
+p.E204D	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
+p.L118P	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
+p.W117R	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
+p.V166I	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/14965365
+p.R205H	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/22895193
+p.G127V	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/22895193
+p.G29D	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/22895193
+p.L201P	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/22895193
+p.S139P	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/25344691
+p.E199G	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/25617745
+p.G144R	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/27149842
+p.L158P	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/27149842
+p.R200W	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
+p.E189V	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
+p.H110Y	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
+p.L140F	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
+p.P102L	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
+p.P102S	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
+p.P192L	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
+p.T105M	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
+p.T152I	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
+p.Y185F	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
+p.E22K	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/28481359
+p.M211V	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/28481359
+p.P71T	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/28481359
+p.R200W	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/29937994
+p.E189K	Missense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/30200630
 p.E12K	Missense		{"Effect": "Adenocarcinoma", "Site": "Lung"}	pubmed.ncbi.nlm.nih.gov/18948947
 p.L128H	Missense		{"Effect": "Adenocarcinoma", "Site": "Lung"}	pubmed.ncbi.nlm.nih.gov/22980975
 p.P172S	Missense		{"Effect": "Adenocarcinoma", "Site": "Lung"}	pubmed.ncbi.nlm.nih.gov/26164066
@@ -1979,16 +1979,16 @@ p.N193D	Missense		{"Effect": "Adenocarcinoma", "Site": "Stomach"}	pubmed.ncbi.nl
 p.I109F	Missense		{"Effect": "Adenocarcinoma", "Site": "Stomach"}	pubmed.ncbi.nlm.nih.gov/31620276
 p.L163F	Missense		{"Effect": "Adenocarcinoma", "Site": "Stomach"}	pubmed.ncbi.nlm.nih.gov/31620276
 p.L169Q	Missense		{"Effect": "Adenocarcinoma", "Site": "Stomach"}	pubmed.ncbi.nlm.nih.gov/31620276
-p.S80R	Missense		{"Effect": "Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/11141506
-p.N78S	Missense		{"Effect": "Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
-p.C162W	Missense		{"Effect": "Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
-p.H115Y	Missense		{"Effect": "Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
-p.L89P	Missense		{"Effect": "Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
-p.P71R	Missense		{"Effect": "Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
-p.S80R	Missense		{"Effect": "Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
-p.W117L	Missense		{"Effect": "Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
-p.V166D	Missense		{"Effect": "Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
-p.H110R	Missense		{"Effect": "Adenoma", "Site": "Small Intestine"}	pubmed.ncbi.nlm.nih.gov/26806338
+p.S80R	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/11141506
+p.N78S	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
+p.C162W	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
+p.H115Y	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
+p.L89P	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
+p.P71R	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
+p.S80R	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
+p.W117L	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
+p.V166D	Missense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
+p.H110R	Missense		{"Effect": "Cyst Adenoma", "Site": "Small Intestine"}	pubmed.ncbi.nlm.nih.gov/26806338
 p.P97S	Missense		{"Effect": "Anaplastic Carcinoma", "Site": "Thyroid"}	pubmed.ncbi.nlm.nih.gov/28351340
 p.L129V	Missense		{"Effect": "Astrocytoma", "Site": "Central Nervous System"}	pubmed.ncbi.nlm.nih.gov/25885250
 p.R58W	Missense		{"Effect": "Astrocytoma", "Site": "Central Nervous System"}	pubmed.ncbi.nlm.nih.gov/31258848
@@ -2015,32 +2015,32 @@ p.R161L	Missense		{"Effect": "Ductal Carcinoma", "Site": "Breast"}	pubmed.ncbi.n
 p.G114D	Missense		{"Effect": "Endolymphatic Sac Tumour", "Site": "Upper Aerodigestive Tract"}	pubmed.ncbi.nlm.nih.gov/11085513
 p.W117C	Missense		{"Effect": "Endolymphatic Sac Tumour", "Site": "Upper Aerodigestive Tract"}	pubmed.ncbi.nlm.nih.gov/11727270
 p.N78Y	Missense		{"Effect": "Follicular Carcinoma", "Site": "Thyroid"}	pubmed.ncbi.nlm.nih.gov/29615459
-p.N7T	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/12405390
-p.G93R	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/12405390
-p.A149T	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/24335534
-p.I151N	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/24335534
-p.L158V	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/24335534
-p.F136S	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/24335534
-p.V74G	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/24335534
-p.R167Q	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/25589003
-p.N78S	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/25589003
-p.L178P	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/25589003
-p.V155L	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/25589003
-p.A149T	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
-p.N78S	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
-p.C162Y	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
-p.G114S	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
-p.H115R	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
-p.L89R	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
-p.L89H	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
-p.T157I	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
-p.Y98S	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
-p.V74D	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
-p.L135F	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/8069849
-p.W88S	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/8069849
-p.L158V	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/9124215
-p.Q132H	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/9458097
-p.G144A	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft tissue"}	pubmed.ncbi.nlm.nih.gov/9458097
+p.N7T	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/12405390
+p.G93R	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/12405390
+p.A149T	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/24335534
+p.I151N	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/24335534
+p.L158V	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/24335534
+p.F136S	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/24335534
+p.V74G	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/24335534
+p.R167Q	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/25589003
+p.N78S	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/25589003
+p.L178P	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/25589003
+p.V155L	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/25589003
+p.A149T	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
+p.N78S	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
+p.C162Y	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
+p.G114S	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
+p.H115R	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
+p.L89R	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
+p.L89H	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
+p.T157I	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
+p.Y98S	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
+p.V74D	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/26514359
+p.L135F	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/8069849
+p.W88S	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/8069849
+p.L158V	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/9124215
+p.Q132H	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/9458097
+p.G144A	Missense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/9458097
 p.R167Q	Missense		{"Effect": "Hurthle Cell Tumour", "Site": "Thyroid"}	pubmed.ncbi.nlm.nih.gov/28481359
 p.L188P	Missense		{"Effect": "Leiomyoblastoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/20054297
 p.E94K	Missense		{"Effect": "Leiomyosarcoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/26541895
@@ -2888,18 +2888,18 @@ p.P192S	Missense		{"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.g
 p.R167G	Missense		{"Effect": "Wilms Tumour", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/20054297
 p.P172L	Missense		{"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.nlm.nih.gov/8758206
 p.S65P	Missense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
-p.L158X	Nonsense	1	{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Tumour"}	pubmed.ncbi.nlm.nih.gov/10408561
+p.L158X	Nonsense	1	{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Tumour"}	pubmed.ncbi.nlm.nih.gov/10408561
 p.L158X	Nonsense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.L158X	Nonsense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8641976
-p.L158X	Nonsense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10862095
-p.V142X	Nonsense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/12624160
-p.D143X	Nonsense	1	{"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Haemangioblastoma", "Site": "Cerebro-Spinal"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/10563480
+p.L158X	Nonsense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8641976
+p.L158X	Nonsense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10862095
+p.V142X	Nonsense	1	{"Effect": "Haemangioblastoma"}, {"Effect": "Renal Cell Carcinoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/12624160
+p.D143X	Nonsense	1	{"Effect": "Haemangioblastoma", "Site": "Cerebel"}, {"Effect": "Haemangioblastoma", "Site": "Cerebro-Spinal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/10563480
 p.L158X	Nonsense	1	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/12624160
 p.L158X	Nonsense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12624160
-p.L158X	Nonsense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cysts", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/8641695
-p.L169X	Nonsense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.L201X	Nonsense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
-p.L158X	Nonsense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Cyst", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8707293
+p.L158X	Nonsense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/8641695
+p.L169X	Nonsense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.L201X	Nonsense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Tumour", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/10761708
+p.L158X	Nonsense	1	{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/8707293
 p.L201X	Nonsense	1	{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.K159X	Nonsense	1	{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/8634692
 p.L201X	Nonsense	1	{"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.nlm.nih.gov/8758206
@@ -2934,7 +2934,7 @@ p.V66X	Nonsense		{"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangiob
 p.V66X	Nonsense		{"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.L158X	Nonsense		{"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/12114495
 p.E173X	Nonsense		{"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/17661816
-p.L201X	Nonsense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.L201X	Nonsense		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/17661816
 p.E173X	Nonsense		{"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.nlm.nih.gov/8758206
 p.Y156X	Nonsense		{"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.nlm.nih.gov/8758206
 p.L158X	Nonsense		{"Effect": "Haemangioblastoma", "Site": "Ocular"}	pubmed.ncbi.nlm.nih.gov/10088816
@@ -2947,7 +2947,7 @@ p.L158X	Nonsense		{"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/864197
 p.T124X	Nonsense		{"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/8758206
 p.L158X	Nonsense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/12114495
 p.V130X	Nonsense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
-p.E173X	Nonsense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/17661816
+p.E173X	Nonsense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}, {"Effect": "Angioma", "Site": "Retina"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/17661816
 p.L158X	Nonsense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.L158X	Nonsense		{"Effect": "Renal Cell Carcinoma"}, {"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/8634692
 p.L158X	Nonsense		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10340905
@@ -3036,12 +3036,12 @@ p.V142X	Nonsense		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/982
 p.Q164X	Nonsense		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/27756406
 p.Q96X	Nonsense		{"Effect": "Adenocarcinoma", "Site": "Lung"}	pubmed.ncbi.nlm.nih.gov/26164066
 p.R161X	Nonsense		{"Effect": "Adenocarcinoma", "Site": "Prostate"}	pubmed.ncbi.nlm.nih.gov/26928463
-p.R161X	Nonsense		{"Effect": "Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
-p.E55X	Nonsense		{"Effect": "Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
+p.R161X	Nonsense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
+p.E55X	Nonsense		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/22158988
 p.E52X	Nonsense		{"Effect": "Anaplastic Carcinoma", "Site": "Thyroid"}	pubmed.ncbi.nlm.nih.gov/29615459
 p.R161X	Nonsense		{"Effect": "Astrocytoma", "Site": "Central Nervous System"}	pubmed.ncbi.nlm.nih.gov/28263318
 p.S68X	Nonsense		{"Effect": "Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/9059819
-p.R161X	Nonsense		{"Effect": "Cyst", "Site": "Paratesticular Tissues"}	pubmed.ncbi.nlm.nih.gov/8522307
+p.R161X	Nonsense		{"Effect": "Cyst Adenoma", "Site": "Paratesticular Tissues"}	pubmed.ncbi.nlm.nih.gov/8522307
 p.G144X	Nonsense		{"Effect": "Granular Cell Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/20054297
 p.R161X	Nonsense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/11309459
 p.Q132X	Nonsense		{"Effect": "Haemangioblastoma", "Site": "Soft Tissue"}	pubmed.ncbi.nlm.nih.gov/25324974
@@ -3270,12 +3270,12 @@ p.Q195X	Nonsense		{"Effect": "Squamous Cell Carcinoma", "Site": "Skin"}	pubmed.n
 p.L201X	Nonsense		{"Effect": "Haemangioblastoma", "Site": "Cerebel"}	pubmed.ncbi.nlm.nih.gov/8758206
 p.L158X	Nonsense		{"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/17024664
 p.E55E	Silent	1		pubmed.ncbi.nlm.nih.gov/9829912
-p.P138P	Silent	2A	{"Effect": "Pheochromocytoma"}, {"Effect": "Hemangioblastoma", "Site": "Spinal"}, {"Effect": "Nodule", "Site": "Thyroid"}, {"Effect": "Cyst", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/30946460
+p.P138P	Silent	2A	{"Effect": "Pheochromocytoma"}, {"Effect": "Haemangioblastoma", "Site": "Spinal"}, {"Effect": "Nodule", "Site": "Thyroid"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}	pubmed.ncbi.nlm.nih.gov/30946460
 p.P154P	Silent	2A		pubmed.ncbi.nlm.nih.gov/9829912
 p.Y112Y	Silent		{"Effect": "Astrocytoma"}	pubmed.ncbi.nlm.nih.gov/23917401
-p.T157T	Silent		{"Effect": "Hemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site":  "Renal"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/20151405
-p.T157T	Silent		{"Effect": "Hemangioblastoma"}, {"Effect": "Cyst", "Site": "Pancreas"}, {"Effect": "Cyst", "Site": "Hepatic"}, {"Effect": "Cyst", "Site": "Renal"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/20151405
-p.T157T	Silent		{"Effect": "Hemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/20151405
+p.T157T	Silent		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site":  "Renal"}, {"Effect": "Angioma", "Site": "Retina"}	pubmed.ncbi.nlm.nih.gov/20151405
+p.T157T	Silent		{"Effect": "Haemangioblastoma"}, {"Effect": "Cyst Adenoma", "Site": "Pancreas"}, {"Effect": "Cyst Adenoma", "Site": "Hepatic"}, {"Effect": "Cyst Adenoma", "Site": "Renal"}, {"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/20151405
+p.T157T	Silent		{"Effect": "Haemangioblastoma"}	pubmed.ncbi.nlm.nih.gov/20151405
 p.V194V	Silent		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10340905
 p.P61P	Silent		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10408776
 p.P45P	Silent		{"Effect": "Renal Cell Carcinoma"}	pubmed.ncbi.nlm.nih.gov/10454237
@@ -3309,14 +3309,14 @@ p.A35A	Silent		{"Effect": "Adenocarcinoma", "Site": "Biliary Tract"}	pubmed.ncbi
 p.L63L	Silent		{"Effect": "Adenocarcinoma", "Site": "Large Intestine"}	pubmed.ncbi.nlm.nih.gov/27149842
 p.G14G	Silent		{"Effect": "Adenocarcinoma", "Site": "Lung"}	pubmed.ncbi.nlm.nih.gov/27923066
 p.L101L	Silent		{"Effect": "Adenocarcinoma", "Site": "Lung"}	pubmed.ncbi.nlm.nih.gov/27923066
-p.D121D	Silent		{"Effect": "Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9327728
+p.D121D	Silent		{"Effect": "Cyst Adenoma", "Site": "Pancreas"}	pubmed.ncbi.nlm.nih.gov/9327728
 p.Y112Y	Silent		{"Effect": "Astrocytoma", "Site": "Central Nervous System"}	pubmed.ncbi.nlm.nih.gov/23917401
 p.P95P	Silent		{"Effect": "Astrocytoma", "Site": "Central Nervous System"}	pubmed.ncbi.nlm.nih.gov/28263318
 p.V83V	Silent		{"Effect": "Carcinoma", "Site": "Breast"}	pubmed.ncbi.nlm.nih.gov/28027327
 p.R182R	Silent		{"Effect": "Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/11536052
 p.E27E	Silent		{"Effect": "Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/11536052
 p.V181V	Silent		{"Effect": "Carcinosarcoma", "Site": "Endometrium"}	pubmed.ncbi.nlm.nih.gov/28940304
-p.P154P	Silent		{"Effect": "Pheochromocytoma", "Site": "Adrenal Gland"}	pubmed.ncbi.nlm.nih.gov/21784903
+p.P154P	Silent		{"Effect": "Pheochromocytoma", "Site": "Adrenal"}	pubmed.ncbi.nlm.nih.gov/21784903
 p.V194V	Silent		{"Effect": "Renal Cell Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/10340905
 p.P45P	Silent		{"Effect": "Renal Cell Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/10454237
 p.R58R	Silent		{"Effect": "Renal Cell Carcinoma", "Site": "Kidney"}	pubmed.ncbi.nlm.nih.gov/10766184
