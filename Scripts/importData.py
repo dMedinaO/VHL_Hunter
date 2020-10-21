@@ -3,7 +3,7 @@ import pymongo
 from pymongo import MongoClient
 import numpy as np
 import json
-proteins = np.array(pd.read_csv("../../Datasets/Data.csv", sep = "\t"))
+proteins = np.array(pd.read_csv("../Datasets/Data.csv", sep = "\t"))
 arreglo = []
 mutaciones = []
 types = []
@@ -50,3 +50,19 @@ db = con.VHL_Hunter
 coleccion = db.Mutations
 coleccion.delete_many({})
 coleccion.insert_many(bd, ordered = True)
+
+ClinicalRisk = pd.read_csv("../Datasets/ClinicalRisk.csv", sep = "\t")[["MUTATION", "RISK"]]
+con = MongoClient('localhost',27017)
+db = con.VHL_Hunter
+coleccion = db.Mutations
+listRisks = []
+for ii, i in enumerate(ClinicalRisk["MUTATION"]):
+    res = list(coleccion.find({"Mutation": i}))
+    if(len(res) == 1):
+        coleccion.update_one({"Mutation": i}, {"$set": {"Risk": ClinicalRisk["RISK"][ii]}})
+    else:
+        dato = '{"Mutation": "' + i + '", "Mutation_type": "Missense", "Risk": "'+ ClinicalRisk["RISK"][ii] + '"}'
+        diccionario = json.loads(dato)
+        listRisks.append(diccionario)
+coleccion.insert_many(listRisks, ordered = True)
+print("Mutaciones simples importadas")
