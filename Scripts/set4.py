@@ -5,7 +5,6 @@ import time
 from Bio import SeqIO
 import sys
 def processmutation(mutacion, seqInput):
-    print(mutacion)
     mutacion = mutacion.replace("p.","")
     wt = mutacion[0]
     mut = mutacion[-1]
@@ -46,7 +45,6 @@ for i in data:
         pass
 total_effects = np.array(total_effects)
 total_vhl = np.array(total_vhl)
-print(cant_mutations)
 
 dataset = []
 columns = []
@@ -57,7 +55,6 @@ for i in total_vhl:
 for i in total_effects:
     columns.append("Effect: " + i)
 columns.append("seq")
-print(columns)
 for i in data:
     arreglo_effects = np.zeros(len(total_effects))
     arreglo_vhl = np.zeros(len(total_vhl))

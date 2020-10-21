@@ -11,7 +11,6 @@ def processmutation(mutacion):
     pos = int(mutacion.replace(wt,"").replace(mut,""))
     seq = (pvhl[:pos-1] + mut + pvhl[pos:])
     return (wt, pos, mut, seq)
-
 pvhl = str(list(SeqIO.parse("../Secuencias/pvhl.fna", "fasta"))[0].seq)
 con = MongoClient('localhost',27017)
 db = con.VHL_Hunter
