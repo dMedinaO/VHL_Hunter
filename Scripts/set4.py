@@ -4,23 +4,28 @@ import numpy as np
 import time
 from Bio import SeqIO
 import sys
-def processmutation(mutacion):
+def processmutation(mutacion, seqInput):
+    print(mutacion)
     mutacion = mutacion.replace("p.","")
     wt = mutacion[0]
     mut = mutacion[-1]
     pos = int(mutacion.replace(wt,"").replace(mut,""))
-    seq = (pvhl[:pos-1] + mut + pvhl[pos:])
-    return (wt, pos, mut, seq)
+    seq = (seqInput[:pos-1] + mut + seqInput[pos:])
+    return seq
 
 pvhl = str(list(SeqIO.parse("../Secuencias/pvhl.fna", "fasta"))[0].seq)
 con = MongoClient('localhost',27017)
 db = con.VHL_Hunter
-coleccion = db.Mutations
-data = list(coleccion.find({"Mutation_type": "Missense"}))
+coleccion = db.Complex
+data = list(coleccion.find())
+
 #Toda la data
 total_vhl = []
 total_effects = []
+cant_mutations = 0
 for i in data:
+    if(len(i["Mutations"]) > cant_mutations):
+        cant_mutations = len(i["Mutations"])
     try: 
         case = i["Case"]
         for c in case:
@@ -41,17 +46,18 @@ for i in data:
         pass
 total_effects = np.array(total_effects)
 total_vhl = np.array(total_vhl)
-#Llenado de datos
+print(cant_mutations)
+
 dataset = []
 columns = []
-columns.append("wt")
-columns.append("pos")
-columns.append("mut")
+columns.append("Mutation1")
+columns.append("Mutation2")
 for i in total_vhl:
-    columns.append("VHL: "+ i)
+    columns.append("VHL: " + i)
 for i in total_effects:
-    columns.append("Effect: "+ i)
+    columns.append("Effect: " + i)
 columns.append("seq")
+print(columns)
 for i in data:
     arreglo_effects = np.zeros(len(total_effects))
     arreglo_vhl = np.zeros(len(total_vhl))
@@ -70,11 +76,11 @@ for i in data:
                 pass
     except:
         pass
-    wt, pos, mut, seq = processmutation(i["Mutation"])
+    seq = pvhl
     fila = []
-    fila.append(wt)
-    fila.append(pos)
-    fila.append(mut)
+    for i in i["Mutations"]:
+        seq = processmutation(i, seq)
+        fila.append(i)
     for v in arreglo_vhl:
         fila.append(int(v))
     for e in arreglo_effects:
@@ -83,4 +89,4 @@ for i in data:
     dataset.append(fila)
 data = pd.DataFrame(dataset, columns= columns)
 print(data)
-data.to_csv("../Datasets/trainingSets/set1.csv", sep = "\t", index = False)
+data.to_csv("../Datasets/trainingSets/set4.csv", index=False, sep = "\t")

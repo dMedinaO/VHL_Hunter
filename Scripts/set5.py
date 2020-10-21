@@ -88,4 +88,4 @@ for i in data:
     dataset.append(fila)
 data = pd.DataFrame(dataset, columns= columns)
 print(data)
-data.to_csv("../Datasets/set5.csv", sep = "\t", index = False)
+data.to_csv("../Datasets/trainingSets/set5.csv", sep = "\t", index = False)
