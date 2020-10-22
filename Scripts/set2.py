@@ -76,8 +76,8 @@ for i in data:
             try:
                 disease = c["Disease"]
                 for d in disease:
-                    if(d["Effect"] not in total_effects):
-                        total_effects.append(d["Effect"])
+                    if(d["Effect"].replace(" ","_").replace("/","_") not in total_effects):
+                        total_effects.append(d["Effect"].replace(" ","_").replace("/","_"))
             except:
                 pass
             try: 
@@ -114,7 +114,7 @@ for i in data:
             try: 
                 b = aa["Disease"]
                 for bb in b:
-                    arreglo_effects[np.where(total_effects == bb["Effect"])] = 1
+                    arreglo_effects[np.where(total_effects == bb["Effect"].replace(" ","_").replace("/","_"))] = 1
             except: 
                 pass
     except:
@@ -125,7 +125,6 @@ for i in data:
         fila.append(int(v))
     for e in arreglo_effects:
         fila.append(int(e))
-    dataset.append(fila)
     if(fila[1] == "Missense"):
         seq = str(missense(fila[0]))
     if(fila[1] == "Nonsense"):
@@ -146,6 +145,21 @@ for i in data:
         seq = str(pvhl)
     fila.append(seq)
     dataset.append(fila)
+for i in total_effects:
+    data = pd.DataFrame(dataset, columns= columns)
+    print(i)
+    data = data.query( i + '== "1"')[["Mutation", "Mutation_type","2B", "2", "1", "2C", "2A", "seq"]]
+    print(data)
+    data.to_csv("../Datasets/trainingSets/set2/" + i + ".csv", sep = "\t", index = False)
+diccs = []
 data = pd.DataFrame(dataset, columns= columns)
 print(data)
-#data.to_csv("../Datasets/trainingSets/set3.csv", sep = "\t", index = False)
+query = ""
+for i in total_effects:
+    query += i
+    query += "== 0"
+    query += " and "
+query = query[:-4]
+data = data.query(query)
+data.to_csv("../Datasets/trainingSets/set2/No_Effect.csv", sep = "\t", index = False)
+print(data)
