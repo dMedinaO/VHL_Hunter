@@ -160,6 +160,6 @@ for i in total_effects:
     query += "== 0"
     query += " and "
 query = query[:-4]
-data = data.query(query)
+data = data.query(query)[["Mutation", "Mutation_type","2B", "2", "1", "2C", "2A", "seq"]]
 data.to_csv("../Datasets/trainingSets/set2/No_Effect.csv", sep = "\t", index = False)
 print(data)
