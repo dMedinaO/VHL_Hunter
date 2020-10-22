@@ -153,7 +153,6 @@ for i in total_effects:
     data.to_csv("../Datasets/trainingSets/set2/" + i + ".csv", sep = "\t", index = False)
 diccs = []
 data = pd.DataFrame(dataset, columns= columns)
-print(data)
 query = ""
 for i in total_effects:
     query += i
