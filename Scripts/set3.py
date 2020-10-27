@@ -125,7 +125,6 @@ for i in data:
         fila.append(int(v))
     for e in arreglo_effects:
         fila.append(int(e))
-    dataset.append(fila)
     if(fila[1] == "Missense"):
         seq = str(missense(fila[0]))
     if(fila[1] == "Nonsense"):
