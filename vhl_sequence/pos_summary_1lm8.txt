@@ -1,0 +1,15 @@
+Chain_B
+start:1
+finish:118
+
+Chain_C
+start:119
+finish:215
+
+Chain_V
+start:216
+finish:376
+
+Chain_H:
+start:377
+finish:397
