@@ -1,8 +1,10 @@
 "use strict"
 var express = require("express");
 var MutationController = require("../controllers/mutation");
+var ComplexController = require("../controllers/complex");
 var router = express.Router();
 //Rutas
+//Mutaciones sencillas
 router.get("/getMutation/:mutationName?", MutationController.getMutation);
 router.get("/getCases/:mutationName?", MutationController.getCases);
 router.get("/getEffects/:mutationName?", MutationController.getEffects);
@@ -13,4 +15,9 @@ router.get("/getMutationsbyType/:mutationType?", MutationController.getMutations
 router.get("/getMutationsbyVHL/:vhlType?", MutationController.getMutationsbyVHL);
 router.get("/getVHLTotal/", MutationController.getVHLTotal);
 router.get("/getEffectsTotal/", MutationController.getEffectsTotal);
+//Mutaciones Complejas
+router.get("/getComplex/:mutationName?", ComplexController.getComplex);
+router.get("/getCouples/:mutationName?", ComplexController.getCouples);
+router.get("/getCaseCogeuples/:mutationName?", ComplexController.getCaseCouples);//En proceso
+
 module.exports = router;

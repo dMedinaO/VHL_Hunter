@@ -17,6 +17,7 @@ npm start
 ## Uso
 El backend corre en el puerto 3800. 
 Tiene implementadas las rutas de consulta a la base de datos: 
+## Mutaciones sencillas
 ## getMutation
 Devuelve una sola mutación, según el nombre ingresado como parámetro: <br>
 
@@ -85,4 +86,19 @@ Devuelve un listado de todos los efectos encontrados en la base de datos:
 
 ```web
 http://localhost:3800/api/getEffectsTotal/
+```
+
+## Mutaciones complejas
+
+## getComplex
+Devuelve un grupo de mutaciones que se han expresado conjuntamente con la especificada, junto con los casos a los que se le asocia. 
+
+```web
+http://localhost:3800/api/getComplex/:mutationName?
+```
+
+## getCouples
+Devuelve un arreglo de mutaciones que se han encontado junto a una especificada. 
+```web
+http://localhost:3800/api/getCouples/:mutationName?
 ```

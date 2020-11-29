@@ -2,8 +2,8 @@
 var Mutation = require("../models/mutation");
 var path = require("path");
 var fs = require("fs");
-const mutation = require("../models/mutation");
 var controller = {
+    //CONSULTAS
     getMutation: (req, res) => {
         //Método para obtener toda la información de la mutación especificada como parámetro (nombre). 
         //Parámetros llegan por params. 
@@ -261,6 +261,7 @@ var controller = {
             })
         });
     },
+    //MODIFICAR BASE DE DATOS
     saveMutation: (req, res) =>{
         //Método para crear una nueva mutacion.
     },
