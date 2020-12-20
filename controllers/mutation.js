@@ -4,6 +4,29 @@ var path = require("path");
 var fs = require("fs");
 var controller = {
     //CONSULTAS
+    getMutations:(req, res)=>{
+        Mutation.aggregate([
+            {
+                $project:{
+                    Mutation: 1,
+                    Molecule: 1, 
+                    Mutation_type: 1,
+                    Risk: 1,
+                    Reports: {$cond: { if: { $isArray: "$Case" }, then: { $size: "$Case" }, else: 0} }
+                }}]
+            ).exec((err, mutation)=>{
+            if(err || mutation.length == 0){
+                console.log("getMutations No Data");
+                return res.status(404).send({
+                    message: "Mutation don't exists"
+                });
+            }
+            console.log("getMutations Success");
+            return res.status(200).send({
+                mutation
+            })
+        });
+    },
     getMutation: (req, res) => {
         //Método para obtener toda la información de la mutación especificada como parámetro (nombre). 
         //Parámetros llegan por params. 
@@ -128,7 +151,7 @@ var controller = {
                 });
             }
         }
-        Mutation.find({"Case.Disease": {"Effect": effect}}).exec((err, mutation)=>{
+        Mutation.find({"Case.Disease.Effect": effect}).exec((err, mutation)=>{
             //Valida si existe el efecto en la colección.
             if(err || mutation.length == 0){
                 console.log("getMutationbyEffect No Data");
@@ -227,6 +250,43 @@ var controller = {
             })
         });
     },
+    getMutationbyBoth: (req, res) =>{
+        //Método para obtener mutaciones que cumplen con un tipo de VHL y con un efecto especifico
+        var vhlType = req.params.vhlType;
+        var effect = req.params.effect;
+        if(!vhlType || vhlType == undefined){
+            if(!vhlType){
+                console.log("getMutationsbyBoth Error")
+                return res.status(404).send({
+                    message: "VHL type isn't defined"
+                });
+            }
+        }
+        else{
+            if(!effect || effect == undefined){
+                if(!effect){
+                    console.log("getMutationsbyBoth Error");
+                    return res.status(404).send({
+                        message: "Effect isn't defined"
+                    });
+                }
+            }
+        }
+        Mutation.find({"Case.VHL_type": vhlType, "Case.Disease.Effect": effect}).exec((err, mutation)=>{//Por ahí va
+            //Valida si existen datos
+            if(err || mutation.length == 0){
+                console.log("getMutationsbyBoth No Data");
+                return res.status(404).send({
+                    message: "VHL or Effect don't exists"
+                });
+            }
+            console.log("Success");
+            //Retorna las mutaciones. 
+            return res.status(200).send({
+                mutation
+            })
+        })
+    },
     getVHLTotal: (req, res)=>{
         //Obtiene todos los tipos de VHL que hay en la base de datos. 
         Mutation.find({},{"Case.VHL_type": 1}).distinct("Case.VHL_type").exec((err, vhls)=>{
@@ -260,13 +320,6 @@ var controller = {
                 effects
             })
         });
-    },
-    //MODIFICAR BASE DE DATOS
-    saveMutation: (req, res) =>{
-        //Método para crear una nueva mutacion.
-    },
-    saveCase: (req, res) =>{
-        //Método para añadir un nuevo caso a una mutación.
     }
 }
 module.exports = controller;
