@@ -1,0 +1,27 @@
+<h2 class="text-center">{{title}} ({{mutationCase.Molecule}}-{{mutationCase.Mutation_type}})</h2>
+<div>
+    <div *ngFor="let case of mutationCase.Case; let i = index">
+        <h4>Report {{i+1}}</h4>
+        <h6 *ngIf="case.VHL_type!= undefined">VHL type {{case.VHL_type}}</h6>
+        <table class="row-border hover" datatable [dtOptions]="dtOptions2" >
+            <thead>
+                <tr>
+                <th>Effect</th>
+                <th>Site</th>
+                <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let disease of case.Disease">
+                    <td>{{disease.Effect}}</td>
+                    <td>{{disease.Site}}</td>
+                    <td>{{disease.Description}}</td>
+                </tr>
+            </tbody>
+            <span>References:</span>
+            <ul *ngFor="let pb of case.Pubmed_ID">
+                <li><a href = "https://pubmed.ncbi.nlm.nih.gov/{{pb}}/">https://pubmed.ncbi.nlm.nih.gov/{{pb}}/</a></li>
+            </ul>
+        </table>
+    </div>
+</div>

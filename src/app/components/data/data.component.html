@@ -1,0 +1,38 @@
+<h2>Single Mutations</h2>
+<mat-form-field>
+    <mat-select placeholder="Filter by Effect" [(ngModel)]="effSelected" name="effSelect">
+        <mat-option *ngFor="let eff of effects" [value]="eff">
+            {{eff}}
+        </mat-option>
+    </mat-select>
+</mat-form-field>
+<mat-form-field>
+    <mat-select placeholder="Filter by VHL type" [(ngModel)]="vhlSelected" name="vhlSelect">
+        <mat-option *ngFor="let v of vhl" [value]="v">
+        {{v}}
+        </mat-option>
+    </mat-select>
+</mat-form-field>
+<button mat-raised-button color="primary" (click)="find()">Find!</button>
+<div>
+    <table datatable [dtOptions]="dtOptions" [dtTrigger] = "dtTrigger" class="table">
+        <thead>
+            <tr>
+            <th>Mutation</th>
+            <th>Molecule</th>
+            <th>Mutation type</th>
+            <th>Clinical Risk (RCC)</th>
+            <th>Reports</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let mut of mutations">
+                <td>{{mut.Mutation}}</td>
+                <td>{{mut.Molecule}}</td>
+                <td>{{mut.Mutation_type}}</td>
+                <td>{{mut.Risk}}</td>
+                <td class= "report"><a [routerLink] = "['/details/'+mut.Mutation]">{{mut.Reports}}</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>    

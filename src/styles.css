@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+.report{
+    color: rgb(63, 63, 209);
+    cursor: pointer;
+}
+.space{
+    height: 50px;
+}
+.shortspace{
+    height: 5px;
+}
+.custom-select{
+    width: 80% !important;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
