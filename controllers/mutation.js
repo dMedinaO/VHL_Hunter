@@ -2,19 +2,58 @@
 var Mutation = require("../models/mutation");
 var path = require("path");
 var fs = require("fs");
+const { query } = require("express");
 var controller = {
     //CONSULTAS
-    getMutations:(req, res)=>{
+    getAll: (req, res)=>{
+        Mutation.find({}).exec((err, mutation)=>{
+            //Valida si existe la mutación en la colección. 
+            if(err || mutation.length == 0){
+                console.log("getMutation No Data");
+                return res.status(404).send({
+                    message: "Mutation don't exists"
+                });
+            }
+            console.log("getMutacion Success");
+            //Retorna la mutación. 
+            return res.status(200).send({
+                mutation
+            })
+        })
+    },
+    getFasta: (req, res)=>{
         Mutation.aggregate([
             {
                 $project:{
                     Mutation: 1,
-                    Molecule: 1, 
-                    Mutation_type: 1,
-                    Risk: 1,
-                    Reports: {$cond: { if: { $isArray: "$Case" }, then: { $size: "$Case" }, else: 0} }
+                    DNA_sequence: 1,
+                    Protein_sequence: 1,
                 }}]
             ).exec((err, mutation)=>{
+            if(err || mutation.length == 0){
+                console.log("getMutations No Data");
+                return res.status(404).send({
+                    message: "Mutation don't exists"
+                });
+            }
+            console.log("getMutations Success");
+            return res.status(200).send({
+                mutation
+            })
+        });
+    },
+    getMutations:(req, res)=>{
+        Mutation.aggregate([{
+            $project:{
+                Mutation: 1,
+                Molecule: 1, 
+                Mutation_type: 1,
+                Risk: 1,
+                Protein_sequence: 1,
+                DNA_sequence: 1,
+                Reports: {$cond: { if: { $isArray: "$Case" }, then: { $size: "$Case" }, else: 0} }
+            }
+        }]).exec((err, mutation)=>{
             if(err || mutation.length == 0){
                 console.log("getMutations No Data");
                 return res.status(404).send({
@@ -320,6 +359,104 @@ var controller = {
                 effects
             })
         });
+    },
+    getTypesTotal: (req, res)=>{
+        Mutation.find({}, {"Mutation_type": 1}).distinct("Mutation_type").exec((err, types)=>{
+            if(err || types.length == 0){
+                console.log("Error / No Data");
+                return res.status(404).send({
+                    message: "Error"
+                });
+            }
+            console.log("Success");
+            //Retorna la mutación. 
+            return res.status(200).send({
+                types
+            })
+        })
+    },
+    getMutationsbyFilters: (req, res)=>{
+        var vhlTypes = req.params.vhlTypes;
+        var effects = req.params.effects;
+        var filters = []
+        if(vhlTypes != "undefined"){
+            vhlTypes = vhlTypes.split(",")
+            for (let i=0;i<vhlTypes.length;i++){
+                filters.push({"Case.VHL_type": vhlTypes[i]})
+            }
+        }
+        if(effects != "undefined"){
+            effects = effects.split(",")
+            for (let i=0; i<effects.length;i++){
+                filters.push({"Case.Disease.Effect": effects[i]})        
+            }
+        }
+        Mutation.aggregate([
+            { $match: {$and: filters}},
+            { $project:{
+                Mutation: 1,
+                Molecule: 1, 
+                Mutation_type: 1,
+                Risk: 1,
+                Protein_sequence: 1,
+                DNA_sequence: 1,
+                Reports: {$cond: { if: { $isArray: "$Case" }, then: { $size: "$Case" }, else: 0} }
+            }
+        }]).exec((err, mutaciones)=>{
+            if(err || mutaciones.length == 0){
+                console.log("Error / No Data");
+                return res.status(200).send({
+                    message: "No data available"
+                });
+            }
+            console.log("Success");
+            return res.status(200).send({
+                message: "Downloading",
+                mutaciones
+            })
+        })
+    },
+    getDownloadsbyFilters: (req, res)=>{
+        var vhlTypes = req.params.vhlTypes;
+        var effects = req.params.effects;
+        var mutationType = req.params.mutationType;
+        var molecule = req.params.molecule;
+        var risk = req.params.risk;
+        var filters = []
+        if(vhlTypes != "undefined"){
+            vhlTypes = vhlTypes.split(",")
+            for (let i=0;i<vhlTypes.length;i++){
+                filters.push({"Case.VHL_type": vhlTypes[i]})
+            }
+        }
+        if(effects != "undefined"){
+            effects = effects.split(",")
+            for (let i=0; i<effects.length;i++){
+                filters.push({"Case.Disease.Effect": effects[i]})        
+            }
+        }
+        if(mutationType != "undefined"){
+            filters.push({"Mutation_type": mutationType});
+        }
+        if(molecule != "undefined"){
+            filters.push({"Molecule": molecule});
+        }
+        if(risk != "undefined"){
+            filters.push({"Risk": risk});
+        }
+        Mutation.find({"$and": filters}).exec((err, mutation)=>{
+            if(err || mutation.length == 0){
+                console.log("Error / No Data");
+                return res.status(200).send({
+                    message: "No data available"
+                });
+            }
+            console.log("Success");
+            return res.status(200).send({
+                message: "Downloading",
+                mutation
+            })
+        })
     }
 }
 module.exports = controller;
