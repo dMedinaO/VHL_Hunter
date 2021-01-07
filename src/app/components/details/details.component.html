@@ -1,27 +1,31 @@
-<h2 class="text-center">{{title}} ({{mutationCase.Molecule}}-{{mutationCase.Mutation_type}})</h2>
-<div>
-    <div *ngFor="let case of mutationCase.Case; let i = index">
-        <h4>Report {{i+1}}</h4>
-        <h6 *ngIf="case.VHL_type!= undefined">VHL type {{case.VHL_type}}</h6>
-        <table class="row-border hover" datatable [dtOptions]="dtOptions2" >
-            <thead>
-                <tr>
-                <th>Effect</th>
-                <th>Site</th>
-                <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr *ngFor="let disease of case.Disease">
-                    <td>{{disease.Effect}}</td>
-                    <td>{{disease.Site}}</td>
-                    <td>{{disease.Description}}</td>
-                </tr>
-            </tbody>
-            <span>References:</span>
-            <ul *ngFor="let pb of case.Pubmed_ID">
-                <li><a href = "https://pubmed.ncbi.nlm.nih.gov/{{pb}}/">https://pubmed.ncbi.nlm.nih.gov/{{pb}}/</a></li>
-            </ul>
-        </table>
+<div *ngIf = "mutationCase!=undefined" >
+    <h2 class="text-center">{{title}} ({{mutationCase.Molecule}}-{{mutationCase.Mutation_type}})</h2>
+    <div>
+        <div *ngFor="let case of mutationCase.Case; let i = index">
+            <h3>Report {{i+1}}</h3>
+            <h4 *ngIf="case.VHL_type!= undefined;else other_content">VHL type {{case.VHL_type}}</h4>
+            <ng-template #other_content>VHL type not specified</ng-template>
+            <table class="row-border hover" datatable [dtOptions]="dtOptions2" >
+                <thead>
+                    <tr>
+                    <th>Effect</th>
+                    <th>Site</th>
+                    <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let disease of case.Disease">
+                        <td>{{disease.Effect}}</td>
+                        <td>{{disease.Site}}</td>
+                        <td>{{disease.Description}}</td>
+                    </tr>
+                </tbody>
+                <div class = "references">References:</div>
+                <ul *ngFor = "let r of case.Reference">
+                    <li><a href = "https://pubmed.ncbi.nlm.nih.gov/{{r.Id}}/">{{r.Title}}</a></li>
+                </ul>
+            </table>
+            <div class ="space"></div>
+        </div>
     </div>
 </div>

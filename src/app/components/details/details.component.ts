@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { MutationService } from "../../../services/mutation.service";
 import { MutationCases } from "../../../models/mutationcases";
@@ -12,8 +12,9 @@ export class DetailsComponent implements OnInit {
   public title:string;
   public mutationCase: MutationCases;
   public dtOptions2: any = {};
-  public dataReady: boolean = false;
-  constructor(private rutaActiva: ActivatedRoute, private _mutationService: MutationService) { }
+  constructor(private rutaActiva: ActivatedRoute, 
+    private _mutationService: MutationService) {
+   }
   ngOnInit(): void {
     this.mutation = this.rutaActiva.snapshot.params.mutation;
     this.title = this.mutation;
@@ -33,17 +34,8 @@ export class DetailsComponent implements OnInit {
   getMutation(mutation:string){
     this._mutationService.getMutation(mutation).subscribe(
       response=>{
-        this.mutationCase = response.mutation[0];
-        if(this.mutationCase.Mutation_type.includes("(nt)")){
-          this.mutationCase.Molecule = "DNA";
-        }
-        else{
-          this.mutationCase.Molecule = "Protein";
-        }
-        this.mutationCase.Mutation_type = this.mutationCase.Mutation_type.
-        replace(" (nt)", "").replace("(aa)", "").replace("_", " ");
+        this.mutationCase = response.mutation[0]
         console.log(this.mutationCase);
-        this.dataReady = true;
       },
       error=>{
         console.log("Error");

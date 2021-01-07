@@ -1,38 +1,90 @@
-<h2>Single Mutations</h2>
-<mat-form-field>
-    <mat-select placeholder="Filter by Effect" [(ngModel)]="effSelected" name="effSelect">
-        <mat-option *ngFor="let eff of effects" [value]="eff">
-            {{eff}}
-        </mat-option>
+<mat-card>
+  <!--Select múltiple para el efecto-->
+  <mat-form-field appearence = "fill">
+    <mat-label>Filter by Effect</mat-label>
+    <mat-select [(ngModel)]="effectsSelected" multiple>
+      <mat-option *ngFor="let eff of effectsList" [value]="eff">{{eff}}</mat-option>
     </mat-select>
-</mat-form-field>
-<mat-form-field>
-    <mat-select placeholder="Filter by VHL type" [(ngModel)]="vhlSelected" name="vhlSelect">
-        <mat-option *ngFor="let v of vhl" [value]="v">
-        {{v}}
-        </mat-option>
+  </mat-form-field>
+  <!--Select múltiple para el tipo de VHL-->
+  <mat-form-field appearence = "fill">
+    <mat-label>Filter by VHL Type</mat-label>
+    <mat-select [(ngModel)]="vhlSelected" multiple>
+      <mat-option *ngFor="let v of vhlList" [value]="v">{{v}}</mat-option>
     </mat-select>
-</mat-form-field>
-<button mat-raised-button color="primary" (click)="find()">Find!</button>
-<div>
-    <table datatable [dtOptions]="dtOptions" [dtTrigger] = "dtTrigger" class="table">
-        <thead>
-            <tr>
-            <th>Mutation</th>
-            <th>Molecule</th>
-            <th>Mutation type</th>
-            <th>Clinical Risk (RCC)</th>
-            <th>Reports</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr *ngFor="let mut of mutations">
-                <td>{{mut.Mutation}}</td>
-                <td>{{mut.Molecule}}</td>
-                <td>{{mut.Mutation_type}}</td>
-                <td>{{mut.Risk}}</td>
-                <td class= "report"><a [routerLink] = "['/details/'+mut.Mutation]">{{mut.Reports}}</a></td>
-            </tr>
-        </tbody>
-    </table>
-</div>    
+  </mat-form-field>
+  <!--Botón de submit-->
+  <button mat-raised-button color="primary" (click)="find()">Find!</button>
+  <!--Botón de leyenda (dialog)-->
+  <button class = "legend" mat-button color="basic" (click)="Legend()"><span class="material-icons">help</span></button>
+  <!--Datatable-->
+  <table datatable [dtOptions]="dtOptions" [dtTrigger] = "dtTrigger" class="table">
+  <!--Header-->
+  <thead>
+    <tr>
+    <th>Mutation</th>
+    <th>Molecule</th>
+    <th>Mutation type</th>
+    <th>Reports</th>
+    </tr>
+  </thead>
+  <!--Data-->
+  <tbody>
+    <tr *ngFor="let mut of mutations">  
+    <td><div class = "nombreMutation" (click) = "ShowMutation(mut.Mutation, mut.Protein_sequence, mut.DNA_sequence)">{{mut.Mutation}}</div></td>
+    <td>{{mut.Molecule}}</td>
+    <td>{{mut.Mutation_type}}</td>
+    <td class= "report" [routerLink] = "['/details/'+mut.Mutation]"><a >{{mut.Reports}}</a></td>
+    </tr>
+  </tbody>
+  </table>
+</mat-card>
+<!--Footer de descargas-->
+<div class = "descargas">
+  <button class = "download" id = "advanced" mat-raised-button color="primary" [routerLink] = "['/download']">Advanced Download</button>
+  <button class = "download" id = "csv" mat-raised-button color="link" (click)="DownloadCSV()">Download CSV</button>
+  <button class = "download" id = "fasta" mat-raised-button color="link" (click)="DownloadFasta()">Download FASTA</button>
+  <button class = "download" id = "json" mat-raised-button color="link" (click)="DownloadJSON()">Download JSON</button>
+</div>
+
+<div id = "popup_legend">
+  <div style = "text-align: left; padding: 0px;">
+    <ul>
+      <li>
+        <h2 style = "margin-bottom: 5px;">Mutation</h2>
+        <p>Indicates the change in the DNA/Protein sequence. Depending on the type of mutation, the nomenclature changes. For protein-type mutations, the suffix "p." Is prepended. For DNA (Coding Sequence) mutations, the prefix "c." comes before.</p>
+      </li>
+      <li>
+        <h2 style = "margin-bottom: 5px;">Molecule</h2>
+        <p>Indicates the mutated macromolecule. It can refer to DNA or Proteins</p>
+      </li>
+      <li>  
+        <h2 style = "margin-bottom: 5px;">Mutation Type</h2>
+        <p>Indicates the exchange rate in the specified sequence.</p>
+        <ul>
+        <li>
+          <h3>Missense</h3>
+          <p>A protein that simply replace an aminoacid by another, in an specific position.</p>
+          <p>The nomenclature starts with the "p." sufix. Follows the wild type aminoacid, the position of this one and finish with the mutated aminoacid.</p>
+          <p>Example: </p>
+          <p>p.A132T</p>
+        </li>
+        <li>
+          <h3>Nonsense</h3>
+          <p>A nonsense mutation is a truncated protein.</p>
+          <p>The nomenclature starts with the "p." sufix. Follows the final aminoacid and his position. It finish with an "X" that indicates a stop codon. </p>
+          <p>Example: </p>
+          <p>p.A132X</p>
+        </li>
+        <li>
+          <h3>Silent</h3>
+          <p>A silent mutation corresponds to a mutation that changes the gene, but does not change the amino acid sequence.</p>
+          <p>It follows the same nomenclature than a missense mutation, except that the wild and mutated aminoacids are the same.<p>
+          <p>Example: </p>
+          <p>p.A132A</p>
+        </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>

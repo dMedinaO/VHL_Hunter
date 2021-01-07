@@ -1,0 +1,54 @@
+<mat-card>
+  <div class = "contenedor molecule">
+    <mat-form-field>
+      <mat-select placeholder="Filter by Molecule" [(ngModel)]="moleculeSelected" name="moleculeSelected">
+        <mat-option>Not specified</mat-option>
+        <mat-option *ngFor="let mol of molecules" [value]="mol">
+          {{mol}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div class = "contenedor mutationtype">
+    <mat-form-field>
+      <mat-select placeholder="Filter by Mutation type" [(ngModel)]="mutationTypeSelected" name="types">
+        <mat-option>Not specified</mat-option>
+        <mat-option *ngFor="let t of types" [value]="t">
+          {{t}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div class = "contenedor effects">
+    <mat-form-field appearence = "fill">
+      <mat-label>Filter by Effect</mat-label>
+      <mat-select [(ngModel)]="effectsSelected" multiple>
+        <mat-option *ngFor="let eff of effectsList" [value]="eff">{{eff}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div class = "contenedor vhls">
+    <mat-form-field appearence = "fill">
+      <mat-label>Filter by VHL Type</mat-label>
+      <mat-select [(ngModel)]="vhlSelected" multiple>
+        <mat-option *ngFor="let v of vhlList" [value]="v">{{v}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div class = "contenedor risk">
+    <mat-form-field>
+      <mat-select placeholder="Filter by Clinical Risk (RCC)" [(ngModel)]="clinicalRiskSelected" name="clinicalRisk">
+        <mat-option>Not specified</mat-option>
+        <mat-option *ngFor="let cli of clinicalRisk" [value]="cli">
+          {{cli}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+<br>
+</mat-card>
+<div class = "contenedor descargas">
+  <button class = "download" mat-raised-button color="link" (click)="DownloadCSV()">Download CSV</button>
+  <button class = "download" mat-raised-button color="link" (click)="DownloadFasta()">Download Fasta</button>
+  <button class = "download" mat-raised-button color="link" (click)="DownloadJSON()">Download Json</button>  
+</div>

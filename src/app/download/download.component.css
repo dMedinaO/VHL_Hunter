@@ -1,0 +1,26 @@
+.download{
+    margin: 5px;
+}
+button{
+    text-align: center;
+}
+.contenedor{
+    width: 230px;
+    text-align: left;
+    float: left;
+    border-bottom: 0px;
+    height: 60px;
+    padding: 0px;
+    margin: 0px;
+}
+.descargas{
+    width: 1000px;
+}
+.borrador{
+    float: right;
+    line-height: 55px;
+    cursor: pointer;
+}
+br{
+    clear: both;
+}

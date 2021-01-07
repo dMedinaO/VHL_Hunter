@@ -5,6 +5,8 @@ export class MutationResumen{
         public Molecule: string,
         public Mutation_type: string,
         public Reports: number,
-        public Risk: string
+        public Risk: string,
+        public Protein_sequence: string,
+        public DNA_sequence: string
     ){}
 }
