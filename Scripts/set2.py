@@ -64,7 +64,7 @@ cds_vhl = str(list(SeqIO.parse("../Secuencias/VHL_cds.fna", "fasta"))[0].seq)
 pvhl = str(list(SeqIO.parse("../Secuencias/pvhl.fna", "fasta"))[0].seq)
 con = MongoClient('localhost',27017)
 db = con.VHL_Hunter
-coleccion = db.Mutations
+coleccion = db.Mutation
 data = list(coleccion.find({}))
 #Toda la data
 total_vhl = []

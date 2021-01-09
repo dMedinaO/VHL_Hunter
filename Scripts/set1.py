@@ -14,7 +14,7 @@ def processmutation(mutacion):
 pvhl = str(list(SeqIO.parse("../Secuencias/pvhl.fna", "fasta"))[0].seq)
 con = MongoClient('localhost',27017)
 db = con.VHL_Hunter
-coleccion = db.Mutations
+coleccion = db.Mutation
 data = list(coleccion.find({"Mutation_type": "Missense"}))
 #Toda la data
 total_vhl = []
