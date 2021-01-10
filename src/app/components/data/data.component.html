@@ -19,32 +19,32 @@
   <button class = "legend" mat-button color="basic" (click)="Legend()"><span class="material-icons">help</span></button>
   <!--Datatable-->
   <table datatable [dtOptions]="dtOptions" [dtTrigger] = "dtTrigger" class="table">
-  <!--Header-->
-  <thead>
-    <tr>
-    <th>Mutation</th>
-    <th>Molecule</th>
-    <th>Mutation type</th>
-    <th>Reports</th>
-    </tr>
-  </thead>
-  <!--Data-->
-  <tbody>
-    <tr *ngFor="let mut of mutations">  
-    <td><div class = "nombreMutation" (click) = "ShowMutation(mut.Mutation, mut.Protein_sequence, mut.DNA_sequence)">{{mut.Mutation}}</div></td>
-    <td>{{mut.Molecule}}</td>
-    <td>{{mut.Mutation_type}}</td>
-    <td class= "report" [routerLink] = "['/details/'+mut.Mutation]"><a >{{mut.Reports}}</a></td>
-    </tr>
-  </tbody>
+    <!--Header-->
+    <thead>
+      <tr>
+      <th>Mutation</th>
+      <th>Molecule</th>
+      <th>Mutation type</th>
+      <th>Reports</th>
+      </tr>
+    </thead>
+    <!--Data-->
+    <tbody>
+      <tr *ngFor="let mut of mutations">  
+      <td><div class = "nombreMutation" (click) = "ShowMutation(mut.Mutation, mut.Protein_sequence, mut.DNA_sequence)">{{mut.Mutation}}</div></td>
+      <td>{{mut.Molecule}}</td>
+      <td>{{mut.Mutation_type}}</td>
+      <td class= "report" [routerLink] = "['/details/'+mut.Mutation]"><a >{{mut.Reports}}</a></td>
+      </tr>
+    </tbody>
   </table>
 </mat-card>
 <!--Footer de descargas-->
 <div class = "descargas">
   <button class = "download" id = "advanced" mat-raised-button color="primary" [routerLink] = "['/download']">Advanced Download</button>
-  <button class = "download" id = "csv" mat-raised-button color="link" (click)="DownloadCSV()">Download CSV</button>
-  <button class = "download" id = "fasta" mat-raised-button color="link" (click)="DownloadFasta()">Download FASTA</button>
-  <button class = "download" id = "json" mat-raised-button color="link" (click)="DownloadJSON()">Download JSON</button>
+  <button class = "download" id = "csv" mat-raised-button color="link" (click)="DownloadCSV()">Full Download CSV</button>
+  <button class = "download" id = "fasta" mat-raised-button color="link" (click)="DownloadFasta()">Full Download FASTA</button>
+  <button class = "download" id = "json" mat-raised-button color="link" (click)="DownloadJSON()">Full Download JSON</button>
 </div>
 
 <div id = "popup_legend">
@@ -62,27 +62,43 @@
         <h2 style = "margin-bottom: 5px;">Mutation Type</h2>
         <p>Indicates the exchange rate in the specified sequence.</p>
         <ul>
-        <li>
-          <h3>Missense</h3>
-          <p>A protein that simply replace an aminoacid by another, in an specific position.</p>
-          <p>The nomenclature starts with the "p." sufix. Follows the wild type aminoacid, the position of this one and finish with the mutated aminoacid.</p>
-          <p>Example: </p>
-          <p>p.A132T</p>
-        </li>
-        <li>
-          <h3>Nonsense</h3>
-          <p>A nonsense mutation is a truncated protein.</p>
-          <p>The nomenclature starts with the "p." sufix. Follows the final aminoacid and his position. It finish with an "X" that indicates a stop codon. </p>
-          <p>Example: </p>
-          <p>p.A132X</p>
-        </li>
-        <li>
-          <h3>Silent</h3>
-          <p>A silent mutation corresponds to a mutation that changes the gene, but does not change the amino acid sequence.</p>
-          <p>It follows the same nomenclature than a missense mutation, except that the wild and mutated aminoacids are the same.<p>
-          <p>Example: </p>
-          <p>p.A132A</p>
-        </li>
+          <h2>Protein Mutations</h2>
+          <li>
+            <h3>Missense</h3>
+            <p>A protein that simply replace an aminoacid by another, in an specific position.</p>
+            <p>The nomenclature starts with the "p." sufix. Follows the wild type aminoacid, the position of this one and finish with the mutated aminoacid.</p>
+            <p>Example: </p>
+            <p>p.A132T</p>
+          </li>
+          <li>
+            <h3>Nonsense</h3>
+            <p>A nonsense mutation is a truncated protein.</p>
+            <p>The nomenclature starts with the "p." sufix. Follows the final aminoacid and his position. It finish with an "X" that indicates a stop codon. </p>
+            <p>Example: </p>
+            <p>p.A132X</p>
+          </li>
+          <li>
+            <h3>Silent</h3>
+            <p>A silent mutation corresponds to a mutation that changes the gene, but does not change the amino acid sequence.</p>
+            <p>It follows the same nomenclature than a missense mutation, except that the wild and mutated aminoacids are the same.<p>
+            <p>Example: </p>
+            <p>p.A132A</p>
+          </li>
+          <li>
+            <h3>Silent</h3>
+            <p>A silent mutation corresponds to a mutation that changes the gene, but does not change the amino acid sequence.</p>
+            <p>It follows the same nomenclature than a missense mutation, except that the wild and mutated aminoacids are the same.<p>
+            <p>Example: </p>
+            <p>p.A132A</p>
+          </li>
+          <h2>DNA Mutations</h2>
+          <li>
+            <h3>Single Deletion</h3>
+            <p>A silent mutation corresponds to a mutation that changes the gene, but does not change the amino acid sequence.</p>
+            <p>It follows the same nomenclature than a missense mutation, except that the wild and mutated aminoacids are the same.<p>
+            <p>Example: </p>
+            <p>p.A132A</p>
+          </li>
         </ul>
       </li>
     </ul>
