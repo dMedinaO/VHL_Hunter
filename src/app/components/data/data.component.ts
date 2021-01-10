@@ -110,7 +110,7 @@ export class DataComponent implements OnDestroy, OnInit {
     this._mutationService.getMutationsbyFilters(this.vhlSelected, this.effectsSelected).subscribe(
       response=>{
         console.log(response);
-        this.mutations = response.mutaciones;
+        this.mutations = response.mutations;
         this.actualizar();
       }
     )

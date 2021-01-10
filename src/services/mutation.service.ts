@@ -1,7 +1,7 @@
-import {Injectable} from "@angular/core";
-import {HttpClient, HttpHeaders} from "@angular/common/http";
-import {Observable} from "rxjs/Observable";
-import {Global} from "./global";
+import { Injectable} from "@angular/core";
+import { HttpClient, HttpHeaders } from "@angular/common/http";
+import { Observable } from "rxjs/Observable";
+import { Global } from "./global";
 import { saveAs } from '../../node_modules/file-saver';
 @Injectable()
 export class MutationService{
@@ -31,6 +31,7 @@ export class MutationService{
         let headers = new HttpHeaders().set("Content-Type", "application/json");
         return this._http.get(this.url + "getVHLTotal", {headers: headers});
     }
+<<<<<<< HEAD
     getMutationsbyEffect(effect: string): Observable <any>{
         this.url = Global.url;
         let headers = new HttpHeaders().set("Content-Type", "application/json");
@@ -46,6 +47,8 @@ export class MutationService{
         let headers = new HttpHeaders().set("Content-Type", "application/json");
         return this._http.get(this.url + "getMutationsbyBoth/" + vhl + "/" + effect, {headers: headers});
     }
+=======
+>>>>>>> 38efa3abf20dcad9d5c5500005bf3dd13bd70e3f
     getTypes(): Observable<any>{
         this.url = Global.url;
         let headers = new HttpHeaders().set("Content-Type", "application/json");
@@ -116,7 +119,7 @@ export class MutationService{
             }
             text += mutacion["Mutation"] + `;` + mutacion["Mutation_type"] + `;` + mutacion["Molecule"] + `;`
             + vhltypes.toString() + `;` + efectos.toString() + `;`;
-            if(mutacion["DNA_sequencee"] != undefined){
+            if(mutacion["DNA_sequence"] != undefined){
             text += mutacion["DNA_sequence"] + `;`
             }
             text += mutacion["Protein_sequence"] + `\n`
@@ -135,7 +138,7 @@ export class MutationService{
             text += res["mutations"][i].Protein_sequence + `\n`
         }
         var file = new Blob([text], {type: "text/plain"});
-        saveAs(file, "VHLHunter_FullData.fasta");
+        saveAs(file, "VHLHunterData.fasta");
         })       
     }
 }
