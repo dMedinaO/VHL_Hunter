@@ -1,7 +1,7 @@
-import {Injectable} from "@angular/core";
-import {HttpClient, HttpHeaders} from "@angular/common/http";
-import {Observable} from "rxjs/Observable";
-import {Global} from "./global";
+import { Injectable} from "@angular/core";
+import { HttpClient, HttpHeaders } from "@angular/common/http";
+import { Observable } from "rxjs/Observable";
+import { Global } from "./global";
 import { saveAs } from '../../node_modules/file-saver';
 @Injectable()
 export class MutationService{
@@ -12,38 +12,32 @@ export class MutationService{
         this.url = Global.url;
     }
     getMutations(): Observable<any>{
+        this.url = Global.url;
         let headers = new HttpHeaders().set("Content-Type", "application/json");
         return this._http.get(this.url + "getMutations", {headers: headers});
     }
     getMutation(mutation: string): Observable<any>{
+        this.url = Global.url;
         let headers = new HttpHeaders().set("Content-Type", "application/json");
         return this._http.get(this.url + "getMutation/" + mutation, {headers: headers});
     }
     getEffects(): Observable<any>{
+        this.url = Global.url;
         let headers = new HttpHeaders().set("Content-Type", "application/json");
         return this._http.get(this.url + "getEffectsTotal", {headers: headers});
     }
     getVHL(): Observable<any>{
+        this.url = Global.url;
         let headers = new HttpHeaders().set("Content-Type", "application/json");
         return this._http.get(this.url + "getVHLTotal", {headers: headers});
     }
-    getMutationsbyEffect(effect: string): Observable <any>{
-        let headers = new HttpHeaders().set("Content-Type", "application/json");
-        return this._http.get(this.url + "getMutationsbyEffect/" + effect, {headers: headers});
-    }
-    getMutationsbyVHL(vhl: string): Observable <any>{
-        let headers = new HttpHeaders().set("Content-Type", "application/json");
-        return this._http.get(this.url + "getMutationsbyVHL/" + vhl, {headers: headers});
-    }
-    getMutationbyBoth(vhl: string, effect: string): Observable <any>{
-        let headers = new HttpHeaders().set("Content-Type", "application/json");
-        return this._http.get(this.url + "getMutationsbyBoth/" + vhl + "/" + effect, {headers: headers});
-    }
     getTypes(): Observable<any>{
+        this.url = Global.url;
         let headers = new HttpHeaders().set("Content-Type", "application/json");
         return this._http.get(this.url + "getTypesTotal", {headers: headers});
     }
     getMutationsbyFilters(vhlTypes:string[], effects:string[]):Observable<any>{
+        this.url = Global.url;
         let headers = new HttpHeaders().set("Content-Type", "application/json");
         this.url = Global.url
         let vhl
@@ -86,9 +80,8 @@ export class MutationService{
         var text = `Mutation;Mutation_type;Molecule;VHL_types;Effects;DNA_sequence;Protein_sequence\n`;
         this._http.get(this.url, {headers:headers})
         .subscribe((res) => {
-            console.log(res)
-        for(var i = 0; i< res["mutation"].length;i++){
-            var mutacion = res["mutation"][i];
+        for(var i = 0; i< res["mutations"].length;i++){
+            var mutacion = res["mutations"][i];
             var efectos = []
             var vhltypes = []
             var cases = mutacion["Case"]
@@ -108,7 +101,7 @@ export class MutationService{
             }
             text += mutacion["Mutation"] + `;` + mutacion["Mutation_type"] + `;` + mutacion["Molecule"] + `;`
             + vhltypes.toString() + `;` + efectos.toString() + `;`;
-            if(mutacion["DNA_sequencee"] != undefined){
+            if(mutacion["DNA_sequence"] != undefined){
             text += mutacion["DNA_sequence"] + `;`
             }
             text += mutacion["Protein_sequence"] + `\n`
@@ -122,12 +115,12 @@ export class MutationService{
         var text = ``;
         this._http.get(this.url)
         .subscribe((res) => {
-        for(var i = 0; i< res["mutation"].length; i++){
-            text += `>`+ res["mutation"][i].Mutation + `\n`
-            text += res["mutation"][i].Protein_sequence + `\n`
+        for(var i = 0; i< res["mutations"].length; i++){
+            text += `>`+ res["mutations"][i].Mutation + `\n`
+            text += res["mutations"][i].Protein_sequence + `\n`
         }
         var file = new Blob([text], {type: "text/plain"});
-        saveAs(file, "VHLHunter_FullData.fasta");
+        saveAs(file, "VHLHunterData.fasta");
         })       
     }
 }

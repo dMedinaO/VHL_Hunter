@@ -8,7 +8,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { MatCard, MatCardModule } from '@angular/material/card';
-
+import { MatIconModule } from '@angular/material/icon';
 import { DataTablesModule } from "angular-datatables";
 import { HttpClientModule } from "@angular/common/http";
 import { DetailsComponent } from './components/details/details.component';
@@ -31,6 +31,7 @@ import { DownloadComponent } from './download/download.component';
     MatFormFieldModule,
     MatSelectModule,
     MatCardModule,
+    MatIconModule,
     HttpClientModule,
     DataTablesModule,
     routing,
