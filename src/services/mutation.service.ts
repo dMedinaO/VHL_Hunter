@@ -31,24 +31,6 @@ export class MutationService{
         let headers = new HttpHeaders().set("Content-Type", "application/json");
         return this._http.get(this.url + "getVHLTotal", {headers: headers});
     }
-<<<<<<< HEAD
-    getMutationsbyEffect(effect: string): Observable <any>{
-        this.url = Global.url;
-        let headers = new HttpHeaders().set("Content-Type", "application/json");
-        return this._http.get(this.url + "getMutationsbyEffect/" + effect, {headers: headers});
-    }
-    getMutationsbyVHL(vhl: string): Observable <any>{
-        this.url = Global.url;
-        let headers = new HttpHeaders().set("Content-Type", "application/json");
-        return this._http.get(this.url + "getMutationsbyVHL/" + vhl, {headers: headers});
-    }
-    getMutationbyBoth(vhl: string, effect: string): Observable <any>{
-        this.url = Global.url;
-        let headers = new HttpHeaders().set("Content-Type", "application/json");
-        return this._http.get(this.url + "getMutationsbyBoth/" + vhl + "/" + effect, {headers: headers});
-    }
-=======
->>>>>>> 38efa3abf20dcad9d5c5500005bf3dd13bd70e3f
     getTypes(): Observable<any>{
         this.url = Global.url;
         let headers = new HttpHeaders().set("Content-Type", "application/json");
