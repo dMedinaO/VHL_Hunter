@@ -17,7 +17,7 @@ for ii, i in enumerate(data):
         zeros[np.where(encabezados == v)[0][0]] = 1
     row = []
     if(type(i["Mutation"]) == list):
-        mutacion = str(i["Mutation"]).replace("'", "").replace("[", "").replace("]", "")
+        mutacion = str(i["Mutation"]).replace("'", "").replace("[", "").replace("]", "").replace(" ","")
         row.append(mutacion)
     else:
         row.append(i["Mutation"])
