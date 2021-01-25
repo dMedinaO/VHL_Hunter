@@ -1,0 +1,25 @@
+from,to,value
+Protein Missense,1,81
+Protein Missense,2,49
+Protein Missense,2A,11
+Protein Missense,2B,18
+Protein Missense,2C,8
+Protein Nonsense,1,21
+Protein Nonsense,2,7
+Protein Nonsense,2B,3
+Protein Silent,1,1
+Protein Silent,2A,2
+Protein Range Deletion,1,4
+Protein Insertion,1,2
+Protein Single Deletion,1,3
+DNA Range Deletion,1,8
+DNA Range Deletion,2B,1
+DNA Single Deletion,1,30
+DNA Single Deletion,2,2
+DNA Single Deletion,2B,1
+DNA Insertion,1,13
+DNA Insertion,2,1
+DNA Insertion,2A,1
+DNA Insertion,2B,1
+Protein Multiple Missense,1,1
+Protein Multiple Missense,2C,1
