@@ -15,8 +15,15 @@
   </mat-form-field>
   <!--Botón de submit-->
   <button mat-raised-button color="primary" (click)="find()">Find!</button>
+  <!--Botón de Graficos (dialog)-->
+  <button class = "side_button" mat-mini-fab color="basic" [routerLink] = "['/visualization']">
+    <span class="material-icons">
+      leaderboard
+    </span>
+  </button>
+  
   <!--Botón de leyenda (dialog)-->
-  <button class = "legend" mat-mini-fab color="primary" (click)="Legend()">?</button>
+  <button class = "side_button" mat-mini-fab color="primary" (click)="Legend()">?</button>
   <!--Datatable-->
   <table datatable [dtOptions]="dtOptions" [dtTrigger] = "dtTrigger" class="table">
     <!--Header-->

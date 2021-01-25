@@ -36,6 +36,11 @@ export class MutationService{
         let headers = new HttpHeaders().set("Content-Type", "application/json");
         return this._http.get(this.url + "getTypesTotal", {headers: headers});
     }
+    getNumberbyFilters(url:string): Observable<any>{
+        this.url = Global.url + url
+        let headers = new HttpHeaders().set("Content-Type", "application/json");
+        return this._http.get(this.url, {headers: headers});
+    }
     getMutationsbyFilters(vhlTypes:string[], effects:string[]):Observable<any>{
         this.url = Global.url;
         let headers = new HttpHeaders().set("Content-Type", "application/json");
@@ -122,5 +127,50 @@ export class MutationService{
         var file = new Blob([text], {type: "text/plain"});
         saveAs(file, "VHLHunterData.fasta");
         })       
+    }
+    getMissense(): Observable<any>{
+        this.url = Global.url;
+        let headers = new HttpHeaders().set("Content-Type", "application/json");
+        return this._http.get(this.url + "getMissense", {headers: headers});
+    }
+    getVHLVenn(): Observable<any>{
+        this.url = Global.url;
+        let headers = new HttpHeaders().set("Content-Type", "application/json");
+        return this._http.get(this.url + "getVHLVenn", {headers: headers});
+    }
+    getEffVenn(): Observable<any>{
+        this.url = Global.url;
+        let headers = new HttpHeaders().set("Content-Type", "application/json");
+        return this._http.get(this.url + "getEffVenn", {headers: headers});
+    }
+    getSubstitutionMatrix(): Observable<any>{
+        this.url = Global.url;
+        let headers = new HttpHeaders().set("Content-Type", "application/json");
+        return this._http.get(this.url + "getSubstitutionMatrix", {headers: headers});
+    }
+    getSubstitutionPosition(): Observable<any>{
+        this.url = Global.url;
+        let headers = new HttpHeaders().set("Content-Type", "application/json");
+        return this._http.get(this.url + "getSubstitutionPosition", {headers: headers});
+    }
+    getProteinSequence(): Observable<any>{
+        this.url = Global.url;
+        let headers = new HttpHeaders().set("Content-Type", "application/json");
+        return this._http.get(this.url + "getProteinSequence", {headers: headers});
+    }
+    getSurkeyVHL(): Observable<any>{
+        this.url = Global.url;
+        let headers = new HttpHeaders().set("Content-Type", "application/json");
+        return this._http.get(this.url + "getSurveyVHL", {headers: headers});
+    }
+    getHistPositions(): Observable<any>{
+        this.url = Global.url;
+        let headers = new HttpHeaders().set("Content-Type", "application/json");
+        return this._http.get(this.url + "getHistPositions", {headers: headers});
+    }
+    getVarSurface(): Observable<any>{
+        this.url = Global.url;
+        let headers = new HttpHeaders().set("Content-Type", "application/json");
+        return this._http.get(this.url + "getVarSurface", {headers: headers});
     }
 }

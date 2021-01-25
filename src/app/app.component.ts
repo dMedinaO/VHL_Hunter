@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { MutationService } from "../services/mutation.service";
 import { MutationResumen } from "../models/mutationresumen";
-import {Global} from "../services/global";
-
+import { Global } from "../services/global";
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
