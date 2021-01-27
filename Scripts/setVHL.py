@@ -1,9 +1,7 @@
 import pandas as pd
 from pymongo import MongoClient
 import numpy as np
-import time
 from Bio import SeqIO
-import sys
 con = MongoClient('localhost',27017)
 db = con.VHL_Hunter
 coleccion = db.Mutation
