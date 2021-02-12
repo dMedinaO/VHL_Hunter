@@ -2,20 +2,22 @@
 <mat-card>
   <mat-tab-group animationDuration="1500ms" mat-align-tabs="start">
     <mat-tab label = "Replacements between aminoacids">
-      <mat-card-header><h2>Replacements between aminoacids</h2></mat-card-header>
       <app-heatmap-missense></app-heatmap-missense>
     </mat-tab>
     <mat-tab label = "Replacements per position">
-      <mat-card-header><h2>Replacements per position</h2></mat-card-header>
       <app-heatmap-positions></app-heatmap-positions>
     </mat-tab>
     <mat-tab label = "Variability per position">
-      <mat-card-header><h2>Variability per position</h2></mat-card-header>
       <app-histogram-positions></app-histogram-positions>
     </mat-tab>
     <mat-tab label = "Variability per Surface">
-      <mat-card-header><h2>Variability per Surface</h2></mat-card-header>
       <app-hist-surface></app-hist-surface>
+    </mat-tab>
+    <mat-tab label = "VHL types by position">
+      <app-hist-vhl></app-hist-vhl>
+    </mat-tab>
+    <mat-tab label = "Effects by position">
+      <app-hist-eff></app-hist-eff>
     </mat-tab>
   </mat-tab-group>
 </mat-card>
@@ -23,11 +25,9 @@
 <mat-card>
   <mat-tab-group animationDuration="1500ms" mat-align-tabs="start">
     <mat-tab label="Relationship between VHL types">
-      <mat-card-header><h2>Relationship between VHL types</h2></mat-card-header>
       <app-venn-vhl></app-venn-vhl>
     </mat-tab>
     <mat-tab label="Relationship between Effects">
-      <mat-card-header><h2>Relationship between Effects</h2></mat-card-header>
       <app-venn-eff></app-venn-eff>
     </mat-tab>
   </mat-tab-group>
@@ -35,12 +35,26 @@
 <br>
 <mat-card>
   <mat-tab-group animationDuration="1500ms" mat-align-tabs="start">
-    <mat-tab label="Relationship between Mutation type and VHL types">
-      <mat-card-header><h2>Relationship between Mutation type and VHL types</h2></mat-card-header>
-      <app-surkey-vhl></app-surkey-vhl>
+    <mat-tab label="Sankey Diagram of relations between Mutation type and VHL types">
+      <app-sankey-vhl></app-sankey-vhl>
+    </mat-tab>
+    <mat-tab label="Table of relations between Mutation type and VHL types">
+      <app-table-resume-vhl></app-table-resume-vhl>
     </mat-tab>
   </mat-tab-group>
 </mat-card>
+<br>
+<mat-card>
+  <mat-tab-group animationDuration="1500ms" mat-align-tabs="start">
+    <mat-tab label="Sankey Diagram of relations between Mutation type and VHL types">
+      <app-sankey-eff></app-sankey-eff>
+    </mat-tab>
+    <mat-tab label="Table of relations between Mutation type and Effects">
+      <app-table-resume-eff></app-table-resume-eff>
+    </mat-tab>
+  </mat-tab-group>
+</mat-card>
+<!--
 <mat-card>
   <mat-tab-group animationDuration="1500ms" mat-align-tabs="start">
     <mat-tab label="VHL-Types related to Molecules and Mutation types involved">
@@ -57,4 +71,5 @@
     </mat-tab>
   </mat-tab-group>
 </mat-card>
+-->
 <br>

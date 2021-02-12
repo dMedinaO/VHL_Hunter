@@ -14,17 +14,40 @@ export class HistSurfaceComponent implements OnInit {
   constructor(
     private _mutationService: MutationService) { }
   async ngOnInit() {
-    this.xlabel = ["A", "B", "C", "D"]
+    this.xlabel = ["A", "B", "C", "D", "N"]
     let temp2 = await this.getHist()
     this.data = [{
       x: this.xlabel,
       y: temp2.data[0],
       type: 'bar',
       marker: {
-        color: 'rgb(0, 0, 200)'
+        color: ["#F28871", "#73A4BF", "#92D394", "#DAD372", "grey"]
       }
-    }]
-    this.layout = {
+    }
+  ]
+  this.layout = {      
+    xaxis: {
+      side: 'bottom',
+      title: {
+        text: 'Surface',
+        font: {
+          family: 'Courier New, monospace',
+          size: 18,
+          color: '#7f7f7f'
+        }
+      },
+    },
+    yaxis: {
+      side: 'top',
+      title: {
+        text: 'Number of mutations',
+        font: {
+          family: 'Courier New, monospace',
+          size: 18,
+          color: '#7f7f7f'
+        }
+      }
+    },
       width: 1200,
       height: 500,
     }

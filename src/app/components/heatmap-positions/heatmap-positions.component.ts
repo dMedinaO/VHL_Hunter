@@ -30,7 +30,7 @@ export class HeatmapPositionsComponent implements OnInit {
     this.layout = {
       xaxis: {
         type: "category",
-        side: 'top',
+        side: 'bottom',
         title: {
           text: 'pVHL Sequence',
           font: {

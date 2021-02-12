@@ -27,9 +27,14 @@ import { HighchartsChartModule } from "highcharts-angular";
 import { VennVHLComponent } from './components/venn-vhl/venn-vhl.component';
 import { VennEffComponent } from './components/venn-eff/venn-eff.component';
 import { HeatmapPositionsComponent } from './components/heatmap-positions/heatmap-positions.component';
-import { SurkeyVHLComponent } from './components/surkey-vhl/surkey-vhl.component';
+import { SankeyVHLComponent } from './components/sankey-vhl/surkey-vhl.component';
 import { HistogramPositionsComponent } from './components/histogram-positions/histogram-positions.component';
 import { HistSurfaceComponent } from './components/hist-surface/hist-surface.component';
+import { SankeyEffComponent } from './components/sankey-eff/sankey-eff.component';
+import { HistVHLComponent } from './components/hist-vhl/hist-vhl.component';
+import { HistEffComponent } from './components/hist-eff/hist-eff.component';
+import { TableResumeVHLComponent } from './components/table-resume-vhl/table-resume-vhl.component';
+import { TableResumeEffComponent } from './components/table-resume-eff/table-resume-eff.component';
 PlotlyModule.plotlyjs = PlotlyJS;
 
 @NgModule({
@@ -46,9 +51,14 @@ PlotlyModule.plotlyjs = PlotlyJS;
     VennVHLComponent,
     VennEffComponent,
     HeatmapPositionsComponent,
-    SurkeyVHLComponent,
+    SankeyVHLComponent,
     HistogramPositionsComponent,
     HistSurfaceComponent,
+    SankeyEffComponent,
+    HistVHLComponent,
+    HistEffComponent,
+    TableResumeVHLComponent,
+    TableResumeEffComponent,
   ],
   imports: [
     BrowserModule,

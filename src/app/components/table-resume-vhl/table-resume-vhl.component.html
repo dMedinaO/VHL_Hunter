@@ -1,0 +1,29 @@
+<table datatable [dtOptions]="dtOptions" [dtTrigger] = "dtTrigger" class="table">
+    <!--Header-->
+    <thead>
+      <tr>
+        <th rowspan="2">VHL</th>
+        <th colspan="3">DNA</th>
+        <th colspan="7">Protein</th>
+        <th rowspan="2">Total</th>
+      </tr>
+      <tr>
+        <th>Insertion</th>
+        <th>Range Deletion</th>
+        <th>Single Deletion</th>
+        <th>Insertion</th>
+        <th>Missense</th>
+        <th>Multiple Missense</th>
+        <th>Nonsense</th>
+        <th>Range Deletion</th>
+        <th>Silent</th>
+        <th>Single Deletion</th>
+      </tr>
+    </thead>
+    <!--Data-->
+    <tbody>
+      <tr *ngFor="let row of data"> 
+          <td *ngFor = "let r of row">{{r}}</td>
+      </tr>
+    </tbody>
+  </table>

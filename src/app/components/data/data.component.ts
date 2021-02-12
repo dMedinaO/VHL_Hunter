@@ -25,7 +25,7 @@ export class DataComponent implements OnDestroy, OnInit {
     private _mutationService: MutationService,
     private chRef: ChangeDetectorRef
   ){}
-  ngOnInit(): void{
+  ngOnInit(){
     /*Se obtiene la data de estos 3 atributos*/
     this.getMutations();
     this.getEffects();
@@ -81,13 +81,14 @@ export class DataComponent implements OnDestroy, OnInit {
   }
   getMutations(){
     /*Obtiene y representa el resumen de las mutaciones */
-    this._mutationService.getMutations().subscribe(
+     this._mutationService.getMutations().subscribe(
       response=>{
         this.mutations = response.mutation;
+        console.log(this.mutations)
         this.chRef.detectChanges();
         this.dtTrigger.next();
       }
-    )
+    ) 
   }
   getEffects(){
     /*Obtiene todos los efectos de la base de datos*/
@@ -117,7 +118,7 @@ export class DataComponent implements OnDestroy, OnInit {
   }
   DownloadJSON(){
     /*Descarga en formato JSON*/
-    this._mutationService.DownloadJSON("getAll");
+    this._mutationService.DownloadJSON("getAllJson");
   }
   DownloadCSV(){
     /*Descarga en formato CSV*/

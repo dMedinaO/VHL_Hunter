@@ -2,18 +2,17 @@ import { Component, OnInit } from '@angular/core';
 import { MutationService } from "../../../services/mutation.service";
 
 @Component({
-  selector: 'app-histogram-positions',
-  templateUrl: './histogram-positions.component.html',
-  styleUrls: ['./histogram-positions.component.css']
+  selector: 'app-hist-eff',
+  templateUrl: './hist-eff.component.html',
+  styleUrls: ['./hist-eff.component.css']
 })
-export class HistogramPositionsComponent implements OnInit {
+export class HistEffComponent implements OnInit {
   public data
   public xlabel
   public sequence
   public layout
   constructor(
     private _mutationService: MutationService) { }
-
   async ngOnInit() {
     let temp = await this.getSequence();
     this.sequence = temp.sequence.split("");
@@ -22,64 +21,67 @@ export class HistogramPositionsComponent implements OnInit {
       let label = await (i+1).toString() +" "+this.sequence[i]
       this.xlabel.push(label)
     }
+    /*["Renal Cell Carcinoma", "Pheochromocytoma", "Hemangioblastoma", "Cyst Adenoma", "Angioma", "Adenocarcinoma"] */
     let temp2 = await this.getHist()
-    let A = this.xlabel.slice(0,58);
-    let Ay = temp2.data[0].slice(0,58);
-    let B = this.xlabel.slice(59, 102);
-    let By = temp2.data[0].slice(59,102);
-    let C = this.xlabel.slice(103, 152);
-    let Cy = temp2.data[0].slice(103,152);
-    let D = this.xlabel.slice(153, 188); 
-    let Dy = temp2.data[0].slice(153,188);
-    let N = this.xlabel.slice(189, this.xlabel.length - 1);
-    let Ny = temp2.data[0].slice(189, this.xlabel.length - 1);
+    console.log(temp2.data)
     this.data = [{
-      x: A,
-      y: Ay,
+      x: this.xlabel,
+      y: temp2.data[0],
       type: 'bar',
-      name: "A",
+      name : "Renal Cell Carcinoma",
       marker: {
         color: "#F28871"
       }
     },
     {
-      x: B,
-      y: By,
+      x: this.xlabel,
+      y: temp2.data[1],
       type: 'bar',
-      name: "B",
+      name : "Pheochromocytoma",
       marker: {
         color: "#73A4BF"
       }
     },
     {
-      x: C,
-      y: Cy,
+      x: this.xlabel,
+      y: temp2.data[2],
       type: 'bar',
-      name: "C",
+      name : "Hemangioblastoma",
       marker: {
         color: "#92D394"
       }
     },
     {
-      x: D,
-      y: Dy,
+      x: this.xlabel,
+      y: temp2.data[3],
       type: 'bar',
-      name: "D",
+      name : "Cyst Adenoma",
       marker: {
         color: "#DAD372"
       }
     },
     {
-      x: N,
-      y: Ny,
+      x: this.xlabel,
+      y: temp2.data[4],
       type: 'bar',
-      name: "N",
+      name : "Angioma",
       marker: {
         color: "grey"
       }
+    },
+    {
+      x: this.xlabel,
+      y: temp2.data[5],
+      type: 'bar',
+      name : "Adenocarcinoma",
+      marker: {
+        color: "#f5b87f"
+      }
     }
-  ];
+  ]
     this.layout = {
+      width: 1200,
+      height: 500,
       xaxis: {
         side: 'bottom',
         title: {
@@ -102,12 +104,11 @@ export class HistogramPositionsComponent implements OnInit {
           }
         }
       },
-      width: 1200,
-      height: 500,
+      barmode: "stack"
     }
   }
   getHist(){
-    return this._mutationService.getHistPositions().toPromise();
+    return this._mutationService.getHistEff().toPromise();
   }
   getSequence(){
     return this._mutationService.getProteinSequence().toPromise();

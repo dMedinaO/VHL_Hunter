@@ -19,7 +19,7 @@ export class HeatmapMissenseComponent implements OnInit {
     this.buildData()
     this.layout = {
       xaxis: {
-        side: 'top',
+        side: 'bottom',
         title: {
           text: 'Mutated aminoacid',
           font: {

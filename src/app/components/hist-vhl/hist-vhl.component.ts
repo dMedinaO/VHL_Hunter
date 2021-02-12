@@ -1,19 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { MutationService } from "../../../services/mutation.service";
 
+
 @Component({
-  selector: 'app-histogram-positions',
-  templateUrl: './histogram-positions.component.html',
-  styleUrls: ['./histogram-positions.component.css']
+  selector: 'app-hist-vhl',
+  templateUrl: './hist-vhl.component.html',
+  styleUrls: ['./hist-vhl.component.css']
 })
-export class HistogramPositionsComponent implements OnInit {
+export class HistVHLComponent implements OnInit {
   public data
   public xlabel
   public sequence
   public layout
   constructor(
     private _mutationService: MutationService) { }
-
   async ngOnInit() {
     let temp = await this.getSequence();
     this.sequence = temp.sequence.split("");
@@ -23,62 +23,52 @@ export class HistogramPositionsComponent implements OnInit {
       this.xlabel.push(label)
     }
     let temp2 = await this.getHist()
-    let A = this.xlabel.slice(0,58);
-    let Ay = temp2.data[0].slice(0,58);
-    let B = this.xlabel.slice(59, 102);
-    let By = temp2.data[0].slice(59,102);
-    let C = this.xlabel.slice(103, 152);
-    let Cy = temp2.data[0].slice(103,152);
-    let D = this.xlabel.slice(153, 188); 
-    let Dy = temp2.data[0].slice(153,188);
-    let N = this.xlabel.slice(189, this.xlabel.length - 1);
-    let Ny = temp2.data[0].slice(189, this.xlabel.length - 1);
     this.data = [{
-      x: A,
-      y: Ay,
+      x: this.xlabel,
+      y: temp2.data[0],
       type: 'bar',
-      name: "A",
+      name : "1",
       marker: {
         color: "#F28871"
       }
     },
     {
-      x: B,
-      y: By,
+      x: this.xlabel,
+      y: temp2.data[1],
       type: 'bar',
-      name: "B",
+      name : "2",
       marker: {
         color: "#73A4BF"
       }
     },
     {
-      x: C,
-      y: Cy,
+      x: this.xlabel,
+      y: temp2.data[2],
       type: 'bar',
-      name: "C",
+      name : "2A",
       marker: {
         color: "#92D394"
       }
     },
     {
-      x: D,
-      y: Dy,
+      x: this.xlabel,
+      y: temp2.data[3],
       type: 'bar',
-      name: "D",
+      name : "2B",
       marker: {
         color: "#DAD372"
       }
     },
     {
-      x: N,
-      y: Ny,
+      x: this.xlabel,
+      y: temp2.data[4],
       type: 'bar',
-      name: "N",
+      name : "2C",
       marker: {
         color: "grey"
       }
     }
-  ];
+  ]
     this.layout = {
       xaxis: {
         side: 'bottom',
@@ -104,10 +94,11 @@ export class HistogramPositionsComponent implements OnInit {
       },
       width: 1200,
       height: 500,
+      barmode: "stack"
     }
   }
   getHist(){
-    return this._mutationService.getHistPositions().toPromise();
+    return this._mutationService.getHistVHL().toPromise();
   }
   getSequence(){
     return this._mutationService.getProteinSequence().toPromise();

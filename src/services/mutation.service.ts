@@ -158,10 +158,15 @@ export class MutationService{
         let headers = new HttpHeaders().set("Content-Type", "application/json");
         return this._http.get(this.url + "getProteinSequence", {headers: headers});
     }
-    getSurkeyVHL(): Observable<any>{
+    getSankeyVHL(): Observable<any>{
         this.url = Global.url;
         let headers = new HttpHeaders().set("Content-Type", "application/json");
-        return this._http.get(this.url + "getSurveyVHL", {headers: headers});
+        return this._http.get(this.url + "getSankeyVHL", {headers: headers});
+    }
+    getSankeyEff():Observable<any>{
+        this.url = Global.url;
+        let headers = new HttpHeaders().set("Content-Type", "application/json");
+        return this._http.get(this.url + "getSankeyEff", {headers: headers});
     }
     getHistPositions(): Observable<any>{
         this.url = Global.url;
@@ -172,5 +177,25 @@ export class MutationService{
         this.url = Global.url;
         let headers = new HttpHeaders().set("Content-Type", "application/json");
         return this._http.get(this.url + "getVarSurface", {headers: headers});
+    }
+    getHistVHL():Observable<any>{
+        this.url = Global.url;
+        let headers = new HttpHeaders().set("Content-Type", "application/json");
+        return this._http.get(this.url + "getHistVHL", {headers: headers});
+    }
+    getHistEff():Observable<any>{
+        this.url = Global.url;
+        let headers = new HttpHeaders().set("Content-Type", "application/json");
+        return this._http.get(this.url + "getHistEff", {headers: headers});
+    }
+    getResumeVHL():Observable<any>{
+        this.url = Global.url;
+        let headers = new HttpHeaders().set("Content-Type", "application/json");
+        return this._http.get(this.url + "getResumeVHL", {headers: headers});
+    }
+    getResumeEff():Observable<any>{
+        this.url = Global.url;
+        let headers = new HttpHeaders().set("Content-Type", "application/json");
+        return this._http.get(this.url + "getResumeEff", {headers: headers});
     }
 }

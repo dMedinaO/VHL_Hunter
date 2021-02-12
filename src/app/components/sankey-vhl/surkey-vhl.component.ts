@@ -8,11 +8,11 @@ HC_more(Highcharts);
 import HC_surkey from 'highcharts/modules/sankey';
 HC_surkey(Highcharts)
 @Component({
-  selector: 'app-surkey-vhl',
-  templateUrl: './surkey-vhl.component.html',
-  styleUrls: ['./surkey-vhl.component.css']
+  selector: 'app-sankey-vhl',
+  templateUrl: './sankey-vhl.component.html',
+  styleUrls: ['./sankey-vhl.component.css']
 })
-export class SurkeyVHLComponent implements OnInit {
+export class SankeyVHLComponent implements OnInit {
   public data; 
   public nulos;
   public Highcharts: typeof Highcharts = Highcharts;
@@ -35,12 +35,12 @@ export class SurkeyVHLComponent implements OnInit {
       },
       chart: {
         width: 1200,
-        height: 800,
+        height: 600,
       },
       credits: {enabled: false}
     };
   }
   getEffVenn(){
-    return this._mutationService.getSurkeyVHL().toPromise();
+    return this._mutationService.getSankeyVHL().toPromise();
   }
 }
