@@ -1,0 +1,11 @@
+Molecule,Mutation_type,1,2,2A,2B,2C,No VHL
+DNA,Insertion,13,1,1,1,0,229
+DNA,Range Deletion,8,0,0,1,0,367
+DNA,Single Deletion,30,2,0,1,0,222
+Protein,Insertion,2,0,0,0,0,14
+Protein,Missense,81,49,11,18,10,332
+Protein,Multiple Missense,1,0,0,0,1,14
+Protein,Nonsense,21,7,0,3,0,27
+Protein,Range Deletion,4,0,0,0,0,85
+Protein,Silent,1,0,2,0,0,44
+Protein,Single Deletion,3,0,0,0,0,17

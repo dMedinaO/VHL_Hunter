@@ -1,0 +1,48 @@
+from,to,value
+Protein Missense,Renal Cell Carcinoma,294
+Protein Missense,Pheochromocytoma,121
+Protein Missense,Hemangioblastoma,139
+Protein Missense,Cyst Adenoma,73
+Protein Missense,Angioma,59
+Protein Missense,Adenocarcinoma,56
+Protein Nonsense,Renal Cell Carcinoma,43
+Protein Nonsense,Pheochromocytoma,7
+Protein Nonsense,Hemangioblastoma,22
+Protein Nonsense,Cyst Adenoma,8
+Protein Nonsense,Angioma,14
+Protein Nonsense,Adenocarcinoma,4
+Protein Silent,Renal Cell Carcinoma,35
+Protein Silent,Pheochromocytoma,2
+Protein Silent,Hemangioblastoma,1
+Protein Silent,Cyst Adenoma,1
+Protein Silent,Adenocarcinoma,4
+Protein Range Deletion,Renal Cell Carcinoma,85
+Protein Range Deletion,Pheochromocytoma,1
+Protein Range Deletion,Hemangioblastoma,2
+Protein Range Deletion,Angioma,2
+Protein Insertion,Renal Cell Carcinoma,10
+Protein Insertion,Hemangioblastoma,2
+Protein Insertion,Cyst Adenoma,1
+Protein Insertion,Angioma,1
+Protein Single Deletion,Renal Cell Carcinoma,17
+Protein Single Deletion,Pheochromocytoma,1
+Protein Single Deletion,Hemangioblastoma,3
+Protein Single Deletion,Cyst Adenoma,1
+Protein Single Deletion,Angioma,1
+DNA Range Deletion,Renal Cell Carcinoma,351
+DNA Range Deletion,Pheochromocytoma,2
+DNA Range Deletion,Hemangioblastoma,21
+DNA Range Deletion,Cyst Adenoma,1
+DNA Range Deletion,Angioma,7
+DNA Single Deletion,Renal Cell Carcinoma,235
+DNA Single Deletion,Pheochromocytoma,3
+DNA Single Deletion,Hemangioblastoma,38
+DNA Single Deletion,Cyst Adenoma,9
+DNA Single Deletion,Angioma,15
+DNA Single Deletion,Adenocarcinoma,3
+DNA Insertion,Renal Cell Carcinoma,211
+DNA Insertion,Pheochromocytoma,2
+DNA Insertion,Hemangioblastoma,19
+DNA Insertion,Cyst Adenoma,4
+DNA Insertion,Angioma,11
+Protein Multiple Missense,Renal Cell Carcinoma,7

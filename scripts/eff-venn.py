@@ -6,7 +6,7 @@ con = MongoClient('localhost',27017)
 db = con.VHL_Hunter
 coleccion = db.Mutation
 data = pd.read_csv("../datasets/DatasetEffect.csv", sep = ";")
-data = data[["Renal Cell Carcinoma", "Pheochromocytoma", "Hemangioblastoma", "Cyst Adenoma", "Adenocarcinoma"]]
+data = data[["Renal Cell Carcinoma", "Pheochromocytoma", "Hemangioblastoma", "Cyst Adenoma", "Angioma", "Adenocarcinoma"]]
 combinaciones = []
 cont_nulos = 0
 for i in range(len(data)):

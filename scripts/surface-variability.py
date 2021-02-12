@@ -9,6 +9,8 @@ row = []
 for i in listSurfaces:
     data = len(list(coleccion.find({"Surface": i}, {})))
     row.append(data)
+row.append(len(list(coleccion.find({"Mutation_type": "Missense"}, {}))) - np.sum(row))
+listSurfaces.append("N")
 df = pd.DataFrame(columns = listSurfaces)
 df.loc[0] = row
 df.to_csv("../datasets/surface-var.csv", index = False, sep = ",")

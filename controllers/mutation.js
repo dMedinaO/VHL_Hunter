@@ -466,9 +466,22 @@ var controller = {
             }
         });
     },
-    getSurkeyVHL: (req, res)=>{
+    getSankeyVHL: (req, res)=>{
         var arreglo = []
         fs.createReadStream('datasets/SurveyVHL.csv')
+            .pipe(csv()).on('data', (row) => {
+                arreglo.push(Object.values(row));
+            })
+            .on('end', () => {
+                console.log("Success")
+                return res.status(200).send({
+                    data: arreglo
+                })
+            });
+    }, 
+    getSankeyEff: (req, res)=>{
+        var arreglo = []
+        fs.createReadStream('datasets/SankeyEff.csv')
             .pipe(csv()).on('data', (row) => {
                 arreglo.push(Object.values(row));
             })
@@ -508,6 +521,66 @@ var controller = {
                     data: arreglo
                 })
             });
-    }
+    },
+    getAllJson: (req, res)=>{
+        var file = "datasets/AllDataJson.json";
+        res.download(file);
+    },
+    getHistVHL: (req, res)=>{
+        var arreglo = []
+        fs.createReadStream('datasets/histVHL.csv')
+            .pipe(csv()).on('data', (row) => {
+                arreglo.push(Object.values(row));
+            })
+            .on('end', () => {
+                console.log("Success")
+                return res.status(200).send({
+                    data: arreglo
+                })
+            });
+    }, 
+    getHistEff: (req, res)=>{
+        var arreglo = []
+        fs.createReadStream('datasets/histEff.csv')
+            .pipe(csv()).on('data', (row) => {
+                arreglo.push(Object.values(row));
+            })
+            .on('end', () => {
+                console.log("Success")
+                return res.status(200).send({
+                    data: arreglo
+                })
+            });
+    }, 
+    getResumeVHL: (req, res)=>{
+        fs.readFile("datasets/resumeDataVHL.json", (err, data) => {
+            if (err) {
+                console.log("Error / No Data");
+                return res.status(200).send({
+                    message: "No data available"
+                });
+            } else {
+                console.log("getResumeVHL Success")
+                return res.status(200).send({
+                    data: JSON.parse(data)
+                })
+            }
+        });
+    }, 
+    getresumeEff: (req, res)=>{
+        fs.readFile("datasets/resumeDataEff.json", (err, data) => {
+            if (err) {
+                console.log("Error / No Data");
+                return res.status(200).send({
+                    message: "No data available"
+                });
+            } else {
+                console.log("getResumeEff Success")
+                return res.status(200).send({
+                    data: JSON.parse(data)
+                })
+            }
+        });
+    }, 
 }
 module.exports = controller;
