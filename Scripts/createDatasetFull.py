@@ -9,7 +9,7 @@ effects = list(coleccion.distinct(key = "Case.Disease.Effect", filter = {"Mutati
 vhls = list(coleccion.distinct(key = "Case.VHL_type", filter = {"Mutation_type": "Missense"}))
 RCC_detail = ["Clear Cell", "Squamous Cell"]
 data = pd.DataFrame(columns = ["Mutation", "Wild aa", "Position", "Mutated aa", "Surface", 
-                            "SDM: Predicted ddg", "WhatIf: dHBonds", "Whatif: dEnergyHbonds", 
+                            "SDM: Predicted ddg", "WhatIf: dHBonds", "WhatIf: dEnergyHbonds", 
                             "Epistatic: Prediction epistatic", "Epistatic: Prediction independent",
                             "Epistatic: Column conservation", "Epistatic: Frequency",
                             "RCC Clinical Risk"] 
