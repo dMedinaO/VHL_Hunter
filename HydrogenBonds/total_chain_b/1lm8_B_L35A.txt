@@ -1,0 +1,99 @@
+Date= 2021-03-12 16:26:55
+
+
+    3 VAL (   3 )B       N   ->    18 ALA (  18 )B       O   Sym=   1 Val=  0.761  DA=  2.71  DHA= 10.79
+    4 PHE (   4 )B       N   ->    67 ALA (  67 )B       O   Sym=   1 Val=  0.774  DA=  2.90  DHA= 12.42
+    5 LEU (   5 )B       N   ->    16 THR (  16 )B       O   Sym=   1 Val=  0.631  DA=  2.77  DHA= 16.35
+    6 MET (   6 )B       N   ->    73 ALA (  73 )B       O   Sym=   1 Val=  0.567  DA=  2.94  DHA= 28.77
+    7 ILE (   7 )B       N   ->    14 ILE (  14 )B       O   Sym=   1 Val=  0.740  DA=  2.85  DHA= 15.08
+    8 ARG (   8 )B       N   ->    75 VAL (  75 )B       O   Sym=   1 Val=  0.663  DA=  2.89  DHA= 18.10
+    8 ARG (   8 )B       NH2 ->    91 GLU (  91 )B       O   Sym=   1 Val=  0.354  DA=  2.83  DHA= 61.57
+    9 ARG (   9 )B       N   ->    12 THR (  12 )B       O   Sym=   1 Val=  0.763  DA=  2.98  DHA= 11.44
+    9 ARG (   9 )B       NH1 ->    86 GLU (  86 )B       OE1 Sym=   1 Val=  0.451  DA=  2.62  DHA= 35.63
+    9 ARG (   9 )B       NH2 ->    86 GLU (  86 )B       OE2 Sym=   1 Val=  0.633  DA=  2.84  DHA= 25.19
+   10 HIS (  10 )B       N   ->    89 CYS (  89 )B       O   Sym=   1 Val=  0.624  DA=  2.81  DHA= 29.07
+   10 HIS (  10 )B       ND1 ->    89 CYS (  89 )B       O   Sym=   1 Val=  0.748  DA=  3.25  DHA=  9.60
+   12 THR (  12 )B       N   ->     9 ARG (   9 )B       O   Sym=   1 Val=  0.648  DA=  2.87  DHA= 21.85
+   14 ILE (  14 )B       N   ->     7 ILE (   7 )B       O   Sym=   1 Val=  0.757  DA=  2.84  DHA= 12.28
+   16 THR (  16 )B       N   ->     5 LEU (   5 )B       O   Sym=   1 Val=  0.692  DA=  3.16  DHA= 18.40
+   16 THR (  16 )B       OG1 ->    17 ASP (  17 )B       O   Sym=   1 Val=  0.492  DA=  3.43  DHA=  8.22
+   18 ALA (  18 )B       N   ->     3 VAL (   3 )B       O   Sym=   1 Val=  0.635  DA=  3.02  DHA= 25.64
+   20 GLU (  20 )B       N   ->     1 MET (   1 )B       O   Sym=   1 Val=  0.659  DA=  2.80  DHA= 17.73
+   22 SER (  22 )B       N   ->    19 LYS (  19 )B       O   Sym=   1 Val=  0.556  DA=  2.79  DHA= 21.37
+   22 SER (  22 )B       OG  ->    19 LYS (  19 )B       O   Sym=   1 Val=  0.818  DA=  2.67  DHA= 14.88
+   23 THR (  23 )B       N   ->    26 GLU (  26 )B       OE2 Sym=   1 Val=  0.676  DA=  2.90  DHA= 20.44
+   24 VAL (  24 )B       N   ->    55 LYS (  55 )B       O   Sym=   1 Val=  0.580  DA=  3.00  DHA= 29.13
+   25 PHE (  25 )B       N   ->    53 ASP (  53 )B       O   Sym=   1 Val=  0.622  DA=  3.04  DHA= 34.21
+   27 LEU (  27 )B       N   ->    23 THR (  23 )B       O   Sym=   1 Val=  0.474  DA=  3.05  DHA= 40.76
+   27 LEU (  27 )B       N   ->    24 VAL (  24 )B       O   Sym=   1 Val=  0.108  DA=  2.87  DHA= 58.80
+   28 LYS (  28 )B       N   ->    24 VAL (  24 )B       O   Sym=   1 Val=  0.612  DA=  2.90  DHA= 25.25
+   28 LYS (  28 )B       NZ  ->    42 GLN (  42 )B       O   Sym=   1 Val=  0.252  DA=  3.02  DHA= 74.86
+   28 LYS (  28 )B       NZ  ->    53 ASP (  53 )B       OD2 Sym=   1 Val=  0.640  DA=  2.69  DHA= 37.27
+   28 LYS (  28 )B       NZ  ->    39 PRO (  39 )B       O   Sym=   1 Val=  0.411  DA=  3.29  DHA= 32.81
+   28 LYS (  28 )B       NZ  ->    42 GLN (  42 )B       O   Sym=   1 Val=  0.148  DA=  3.02  DHA= 86.90
+   29 ARG (  29 )B       N   ->    25 PHE (  25 )B       O   Sym=   1 Val=  0.518  DA=  3.06  DHA= 36.27
+   29 ARG (  29 )B       NH1 ->    32 GLU (  32 )B       OE1 Sym=   1 Val=  0.800  DA=  3.14  DHA= 18.86
+   30 ILE (  30 )B       N   ->    26 GLU (  26 )B       O   Sym=   1 Val=  0.479  DA=  3.27  DHA= 31.86
+   30 ILE (  30 )B       N   ->    27 LEU (  27 )B       O   Sym=   1 Val=  0.019  DA=  3.02  DHA= 62.43
+   31 VAL (  31 )B       N   ->    27 LEU (  27 )B       O   Sym=   1 Val=  0.677  DA=  3.07  DHA= 18.97
+   32 GLU (  32 )B       N   ->    28 LYS (  28 )B       O   Sym=   1 Val=  0.581  DA=  2.80  DHA= 32.53
+   33 GLY (  33 )B       N   ->    29 ARG (  29 )B       O   Sym=   1 Val=  0.550  DA=  3.14  DHA= 27.90
+   34 ILE (  34 )B       N   ->    30 ILE (  30 )B       O   Sym=   1 Val=  0.404  DA=  3.36  DHA= 41.36
+   35 ALA (  35 )B       N   ->    31 VAL (  31 )B       O   Sym=   1 Val=  0.667  DA=  2.75  DHA= 14.94
+   36 LYS (  36 )B       N   ->    32 GLU (  32 )B       O   Sym=   1 Val=  0.469  DA=  2.87  DHA= 45.36
+   36 LYS (  36 )B       NZ  ->    33 GLY (  33 )B       O   Sym=   1 Val=  0.425  DA=  3.33  DHA= 47.33
+   37 ARG (  37 )B       NE  ->    41 GLU (  41 )B       OE1 Sym=   1 Val=  0.401  DA=  3.24  DHA= 44.47
+   37 ARG (  37 )B       NH2 ->    80 ARG (  80 )B       O   Sym=   1 Val=  0.337  DA=  3.18  DHA= 48.40
+   37 ARG (  37 )B       NH2 ->    41 GLU (  41 )B       OE1 Sym=   1 Val=  0.612  DA=  2.60  DHA= 19.96
+   40 ASP (  40 )B       N   ->    40 ASP (  40 )B       OD2 Sym=   1 Val=  0.084  DA=  2.70  DHA= 68.80
+   41 GLU (  41 )B       N   ->    38 PRO (  38 )B       O   Sym=   1 Val=  0.650  DA=  2.95  DHA= 24.56
+   42 GLN (  42 )B       N   ->    39 PRO (  39 )B       O   Sym=   1 Val=  0.558  DA=  3.14  DHA= 20.92
+   42 GLN (  42 )B       NE2 ->    28 LYS (  28 )B       O   Sym=   1 Val=  0.752  DA=  3.06  DHA= 17.80
+   42 GLN (  42 )B       NE2 ->    37 ARG (  37 )B       O   Sym=   1 Val=  0.539  DA=  2.71  DHA= 34.23
+   43 ARG (  43 )B       N   ->    78 ALA (  78 )B       O   Sym=   1 Val=  0.591  DA=  2.91  DHA= 33.86
+   45 TYR (  45 )B       N   ->    76 GLY (  76 )B       O   Sym=   1 Val=  0.612  DA=  2.78  DHA= 32.06
+   46 LYS (  46 )B       N   ->    49 GLN (  49 )B       O   Sym=   1 Val=  0.772  DA=  3.05  DHA= 19.44
+   49 GLN (  49 )B       N   ->    46 LYS (  46 )B       O   Sym=   1 Val=  0.643  DA=  3.09  DHA= 21.94
+   49 GLN (  49 )B       NE2 ->    50 LEU (  50 )B       O   Sym=   1 Val=  0.813  DA=  3.13  DHA=  3.82
+   51 LEU (  51 )B       N   ->    44 LEU (  44 )B       O   Sym=   1 Val=  0.755  DA=  2.84  DHA=  4.21
+   55 LYS (  55 )B       N   ->    52 ASP (  52 )B       O   Sym=   1 Val=  0.599  DA=  3.23  DHA= 18.73
+   56 THR (  56 )B       N   ->    59 GLU (  59 )B       OE1 Sym=   1 Val=  0.755  DA=  3.01  DHA= 11.69
+   57 LEU (  57 )B       N   ->    22 SER (  22 )B       O   Sym=   1 Val=  0.571  DA=  2.93  DHA= 26.56
+   58 GLY (  58 )B       N   ->    20 GLU (  20 )B       O   Sym=   1 Val=  0.633  DA=  2.98  DHA= 32.41
+   60 CYS (  60 )B       N   ->    56 THR (  56 )B       O   Sym=   1 Val=  0.466  DA=  2.99  DHA= 48.44
+   61 GLY (  61 )B       N   ->    58 GLY (  58 )B       O   Sym=   1 Val=  0.571  DA=  2.91  DHA= 20.37
+   61 GLY (  61 )B       N   ->    57 LEU (  57 )B       O   Sym=   1 Val=  0.103  DA=  3.27  DHA= 72.06
+   62 PHE (  62 )B       N   ->    57 LEU (  57 )B       O   Sym=   1 Val=  0.614  DA=  3.02  DHA= 24.31
+   64 SER (  64 )B       N   ->    20 GLU (  20 )B       OE2 Sym=   1 Val=  0.720  DA=  3.01  DHA= 18.47
+   66 THR (  66 )B       N   ->    63 THR (  63 )B       O   Sym=   1 Val=  0.562  DA=  2.95  DHA= 25.02
+   66 THR (  66 )B       OG1 ->    63 THR (  63 )B       O   Sym=   1 Val=  0.809  DA=  3.16  DHA=  4.49
+   67 ALA (  67 )B       N   ->    63 THR (  63 )B       O   Sym=   1 Val=  0.835  DA=  2.86  DHA=  6.59
+   68 ARG (  68 )B       N   ->    71 ALA (  71 )B       O   Sym=   1 Val=  0.293  DA=  3.41  DHA= 44.00
+   68 ARG (  68 )B       N   ->    66 THR (  66 )B       O   Sym=   1 Val=  0.281  DA=  3.07  DHA= 47.88
+   68 ARG (  68 )B       NE  ->    64 SER (  64 )B       O   Sym=   1 Val=  0.521  DA=  2.62  DHA= 55.43
+   68 ARG (  68 )B       NH2 ->     2 ASP (   2 )B       O   Sym=   1 Val=  0.314  DA=  3.01  DHA= 57.16
+   70 GLN (  70 )B       N   ->    70 GLN (  70 )B       OE1 Sym=   1 Val=  0.391  DA=  2.83  DHA= 33.10
+   71 ALA (  71 )B       N   ->    68 ARG (  68 )B       O   Sym=   1 Val=  0.437  DA=  2.99  DHA= 31.00
+   73 ALA (  73 )B       N   ->     4 PHE (   4 )B       O   Sym=   1 Val=  0.626  DA=  3.01  DHA= 25.56
+   75 VAL (  75 )B       N   ->     6 MET (   6 )B       O   Sym=   1 Val=  0.764  DA=  2.82  DHA=  7.43
+   76 GLY (  76 )B       N   ->    45 TYR (  45 )B       O   Sym=   1 Val=  0.582  DA=  2.83  DHA= 31.77
+   77 LEU (  77 )B       N   ->     8 ARG (   8 )B       O   Sym=   1 Val=  0.446  DA=  2.95  DHA= 42.34
+   78 ALA (  78 )B       N   ->    43 ARG (  43 )B       O   Sym=   1 Val=  0.649  DA=  2.98  DHA= 26.62
+   79 PHE (  79 )B       N   ->    86 GLU (  86 )B       OE1 Sym=   1 Val=  0.741  DA=  2.79  DHA= 13.18
+   80 ARG (  80 )B       N   ->    41 GLU (  41 )B       O   Sym=   1 Val=  0.675  DA=  2.87  DHA= 21.79
+   80 ARG (  80 )B       NH2 ->    42 GLN (  42 )B       O   Sym=   1 Val=  0.640  DA=  2.96  DHA= 18.55
+   91 GLU (  91 )B       N   ->    10 HIS (  10 )B       O   Sym=   1 Val=  0.640  DA=  2.98  DHA= 29.12
+  103 MET ( 103 )B       N   ->   100 PRO ( 100 )B       O   Sym=   1 Val=  0.551  DA=  2.78  DHA= 25.87
+  104 LYS ( 104 )B       N   ->   101 ASP ( 101 )B       O   Sym=   1 Val=  0.502  DA=  3.06  DHA= 23.04
+  104 LYS ( 104 )B       N   ->   100 PRO ( 100 )B       O   Sym=   1 Val=  0.156  DA=  3.41  DHA= 65.12
+  104 LYS ( 104 )B       NZ  ->    99 LEU (  99 )B       O   Sym=   1 Val=  0.419  DA=  2.53  DHA= 81.81
+  104 LYS ( 104 )B       NZ  ->   101 ASP ( 101 )B       OD1 Sym=   1 Val=  0.628  DA=  2.96  DHA= 20.67
+  104 LYS ( 104 )B       NZ  ->    99 LEU (  99 )B       O   Sym=   1 Val=  0.344  DA=  2.53  DHA= 83.30
+  106 GLN ( 106 )B       N   ->   104 LYS ( 104 )B       O   Sym=   1 Val=  0.628  DA=  2.48  DHA= 70.16
+Flipped position for residue :    70 GLN (  70 )B
+Number of H-bonds...................... 49.661
+Penalty for too many/few H-atoms....... 0.000
+Penalty for flipped residues........... 0.300
+Mislocated H penalty................... 0.000
+ 
+Total current value.................... 49.361

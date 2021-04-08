@@ -3,13 +3,13 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 import time
 import os
-import subprocess
+import tqdm
 driver = webdriver.Chrome(ChromeDriverManager(version="89.0.4389.23").install())
 root = "PDB"
 main = os.listdir(path = root)
 for m in main:
     pdbs = os.listdir(path = root + "/" + m)
-    for p in pdbs:
+    for p in tqdm.tqdm(pdbs):
         archivo = p
         driver.get("https://swift.cmbi.umcn.nl/servers/html/hnet.html")
         form = driver.find_elements_by_tag_name("input")[2]
