@@ -9,12 +9,6 @@
     font-weight: bold;
     margin-right: 10px;
 } 
-.nombreMutation{
-    cursor: pointer;
-}
-#or{
-    margin-right: 10px;
-}
 .download{
     margin: 5px;
     float: right;
@@ -27,6 +21,13 @@
     margin: 10px;
     float: right;
 }
-#popup_legend{
-    display:none;
+h2{
+    text-align: center;
+}
+.dna_button{
+    float: right;
+    line-height: 25px;
+    font-size: 100%;
+    font-weight: bold;
+    margin-right: 30px;
 }

@@ -198,4 +198,19 @@ export class MutationService{
         let headers = new HttpHeaders().set("Content-Type", "application/json");
         return this._http.get(this.url + "getResumeEff", {headers: headers});
     }
+    getPdb(name: String){
+        this.url = Global.url + "getPdb/" + name;
+        this._http.get<any>(this.url, {responseType: 'blob' as 'json'})
+        .subscribe((res) => {
+          saveAs(res, "1lm8_" + name + ".pdb")
+        })
+    }
+    getSequenceWild():Observable<any>{
+        this.url = Global.url + "getSequenceWild"
+        return this._http.get(this.url);
+    }
+    getPdbExists(name: String):Observable<any>{
+        this.url = Global.url + "getPdbExists/" + name;
+        return this._http.get(this.url);
+    }
 }

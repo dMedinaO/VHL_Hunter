@@ -35,6 +35,9 @@ import { HistVHLComponent } from './components/hist-vhl/hist-vhl.component';
 import { HistEffComponent } from './components/hist-eff/hist-eff.component';
 import { TableResumeVHLComponent } from './components/table-resume-vhl/table-resume-vhl.component';
 import { TableResumeEffComponent } from './components/table-resume-eff/table-resume-eff.component';
+import { SwalSequencesComponent } from './components/swal-sequences/swal-sequences.component';
+import { SwalLegendComponent } from './components/swal-legend/swal-legend.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 PlotlyModule.plotlyjs = PlotlyJS;
 
 @NgModule({
@@ -59,6 +62,8 @@ PlotlyModule.plotlyjs = PlotlyJS;
     HistEffComponent,
     TableResumeVHLComponent,
     TableResumeEffComponent,
+    SwalSequencesComponent,
+    SwalLegendComponent,
   ],
   imports: [
     BrowserModule,
@@ -76,7 +81,8 @@ PlotlyModule.plotlyjs = PlotlyJS;
     routing,
     BrowserAnimationsModule,
     PlotlyModule,
-    HighchartsChartModule
+    HighchartsChartModule,
+    FontAwesomeModule
   ],
   providers: [appRoutingProviders],
   bootstrap: [AppComponent]

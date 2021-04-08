@@ -1,0 +1,9 @@
+#popup_legend{
+    display:none;
+}
+.side_button{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+} 

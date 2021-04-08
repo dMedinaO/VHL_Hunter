@@ -1,3 +1,4 @@
+<h2>VHL Data Base</h2>
 <mat-card>
   <!--Select múltiple para el efecto-->
   <mat-form-field appearence = "fill">
@@ -21,9 +22,8 @@
       leaderboard
     </span>
   </button>
-  
   <!--Botón de leyenda (dialog)-->
-  <button class = "side_button" mat-mini-fab color="primary" (click)="Legend()">?</button>
+  <app-swal-legend></app-swal-legend>  
   <!--Datatable-->
   <table datatable [dtOptions]="dtOptions" [dtTrigger] = "dtTrigger" class="table">
     <!--Header-->
@@ -38,7 +38,10 @@
     <!--Data-->
     <tbody>
       <tr *ngFor="let mut of mutations">  
-      <td><div class = "nombreMutation" (click) = "ShowMutation(mut.Mutation, mut.Protein_sequence, mut.DNA_sequence)">{{mut.Mutation}}</div></td>
+      <td>
+        <button class = "dna_button"  mat-stroked-button color="basic" (click) = "ShowMutation(mut.Mutation, mut.Mutation_type, mut.Protein_sequence, mut.DNA_sequence)"><fa-icon [icon]="faDna"></fa-icon></button>
+        <div class = "nombreMutation" >{{mut.Mutation}}</div>
+      </td>
       <td>{{mut.Molecule}}</td>
       <td>{{mut.Mutation_type}}</td>
       <td class= "report" [routerLink] = "['/details/'+mut.Mutation]"><a >{{mut.Reports}}</a></td>
@@ -53,61 +56,4 @@
   <button class = "download" id = "fasta" mat-raised-button color="link" (click)="DownloadFasta()">Full Download FASTA</button>
   <button class = "download" id = "json" mat-raised-button color="link" (click)="DownloadJSON()">Full Download JSON</button>
 </div>
-
-<div id = "popup_legend">
-  <div style = "text-align: left; padding: 0px;">
-    <ul>
-      <li>
-        <h2 style = "margin-bottom: 5px;">Mutation</h2>
-        <p>Indicates the change in the DNA/Protein sequence. Depending on the type of mutation, the nomenclature changes. For protein-type mutations, the suffix "p." Is prepended. For DNA (Coding Sequence) mutations, the prefix "c." comes before.</p>
-      </li>
-      <li>
-        <h2 style = "margin-bottom: 5px;">Molecule</h2>
-        <p>Indicates the mutated macromolecule. It can refer to DNA or Proteins</p>
-      </li>
-      <li>  
-        <h2 style = "margin-bottom: 5px;">Mutation Type</h2>
-        <p>Indicates the exchange rate in the specified sequence.</p>
-        <ul>
-          <h2>Protein Mutations</h2>
-          <li>
-            <h3>Missense</h3>
-            <p>A protein that simply replace an aminoacid by another, in an specific position.</p>
-            <p>The nomenclature starts with the "p." sufix. Follows the wild type aminoacid, the position of this one and finish with the mutated aminoacid.</p>
-            <p>Example: </p>
-            <p>p.A132T</p>
-          </li>
-          <li>
-            <h3>Nonsense</h3>
-            <p>A nonsense mutation is a truncated protein.</p>
-            <p>The nomenclature starts with the "p." sufix. Follows the final aminoacid and his position. It finish with an "X" that indicates a stop codon. </p>
-            <p>Example: </p>
-            <p>p.A132X</p>
-          </li>
-          <li>
-            <h3>Silent</h3>
-            <p>A silent mutation corresponds to a mutation that changes the gene, but does not change the amino acid sequence.</p>
-            <p>It follows the same nomenclature than a missense mutation, except that the wild and mutated aminoacids are the same.<p>
-            <p>Example: </p>
-            <p>p.A132A</p>
-          </li>
-          <li>
-            <h3>Silent</h3>
-            <p>A silent mutation corresponds to a mutation that changes the gene, but does not change the amino acid sequence.</p>
-            <p>It follows the same nomenclature than a missense mutation, except that the wild and mutated aminoacids are the same.<p>
-            <p>Example: </p>
-            <p>p.A132A</p>
-          </li>
-          <h2>DNA Mutations</h2>
-          <li>
-            <h3>Single Deletion</h3>
-            <p>A silent mutation corresponds to a mutation that changes the gene, but does not change the amino acid sequence.</p>
-            <p>It follows the same nomenclature than a missense mutation, except that the wild and mutated aminoacids are the same.<p>
-            <p>Example: </p>
-            <p>p.A132A</p>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-</div>
+<app-swal-sequences></app-swal-sequences>
