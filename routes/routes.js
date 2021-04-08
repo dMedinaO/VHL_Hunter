@@ -29,4 +29,8 @@ router.get("/getHistVHL", MutationController.getHistVHL);
 router.get("/getHistEff", MutationController.getHistEff);
 router.get("/getResumeVHL", MutationController.getResumeVHL);
 router.get("/getResumeEff", MutationController.getresumeEff);
+router.get("/getPdb/:structure?", MutationController.getPdb);
+router.get("/getSequenceWild", MutationController.getSequenceWild);
+router.get("/getPdbExists/:structure?", MutationController.getPdbExists);
+router.get("/getGrafo", MutationController.getGrafo);
 module.exports = router;

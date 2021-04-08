@@ -581,6 +581,57 @@ var controller = {
                 })
             }
         });
-    }, 
+    },
+    getPdb: (req, res)=>{
+        var mut = req.params.structure;
+        var file;
+        if(mut != undefined){
+            file = "structures/1lm8_" + mut + ".pdb";
+        }
+        else{
+            file = "structures/1lm8.pdb";
+        }
+        res.download(file);
+    },
+    getPdbExists: (req, res)=>{
+        var mut = req.params.structure;
+        var file = "structures/1lm8_" + mut + ".pdb";
+        if (fs.existsSync(file)) {
+            return res.status(200).send({
+                message: "success"
+            })
+        }
+        else{
+            return res.status(200).send({
+                message: "error"
+            })
+        }
+    },
+    getSequenceWild: (req, res)=>{
+    var arreglo = []
+    fs.createReadStream('datasets/sequenceWild.csv')
+        .pipe(csv()).on('data', (row) => {
+            arreglo.push(Object.values(row));
+        })
+        .on('end', () => {
+            console.log("Success")
+            return res.status(200).send({
+                data: arreglo
+            })
+        });
+    },
+    getGrafo: (req, res)=>{
+        var arreglo = []
+        fs.createReadStream('datasets/grafo.csv')
+            .pipe(csv()).on('data', (row) => {
+                arreglo.push(Object.values(row));
+            })
+            .on('end', () => {
+                console.log("Success")
+                return res.status(200).send({
+                    data: arreglo
+                })
+            });
+    }
 }
 module.exports = controller;
