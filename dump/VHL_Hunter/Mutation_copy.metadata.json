@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"9bce8172d3e948afa6d60a051189ec5a","collectionName":"Mutation_copy"}
