@@ -14,12 +14,20 @@ data = pd.DataFrame(columns = ["Mutation", "Wild aa", "Position", "Mutated aa", 
                             "SDM: WT_SN", "SDM: WT_SO", "SDM: WT_SS","SDM: WT_SSE", "SDM: Predicted ddg", 
                             "SDM: Outcome", "WhatIf: dHBonds", "WhatIf: dEnergyHbonds", "Epistatic: Prediction epistatic", 
                             "Epistatic: Prediction independent","Epistatic: Column conservation", "Epistatic: Frequency",
-                            "RCC Clinical Risk"] 
+                            "RCC Clinical Risk", "isReported"] 
                             + ["Effect: " + eff for eff in effects] + ["Carcinoma/RCC: Clear Cell", "Carcinoma/RCC: Squamous Cell"]
                             + ["VHL type: " + v for v in vhls] + ["Protein sequence"])
 
 for i in missense:
+    try:
+        reports = len(i["Case"])
+    except:
+        reports = 0
     diccionario = {}
+    if(reports > 0):
+        diccionario["isReported"] = 1
+    else:
+        diccionario["isReported"] = 0
     diccionario["Mutation"] = i["Mutation"]
     diccionario["Wild aa"] = i["Mutation"][2]
     diccionario["Mutated aa"] = i["Mutation"][-1]
@@ -67,25 +75,37 @@ for i in missense:
     except:
         pass
     eff = list(coleccion.distinct(key = "Case.Disease.Effect", filter = {"Mutation_type": "Missense", "Mutation": i["Mutation"]}))
+    suma = 0
     for e in effects:
         if(e in eff):
             diccionario["Effect: " + e] = 1
+            suma += 1
         else:
             diccionario["Effect: " + e] = 0
-    vhl = list(coleccion.distinct(key = "Case.Disease.VHL_type", filter = {"Mutation_type": "Missense", "Mutation": i["Mutation"]}))
+    if(suma > 0):
+        diccionario["hasEffect"] = 1
+    else:
+        diccionario["hasEffect"] = 0
+    vhl = list(coleccion.distinct(key = "Case.VHL_type", filter = {"Mutation": i["Mutation"]}))
+    suma = 0
     for v in vhls:
         if(v in vhl):
             diccionario["VHL type: " + v] = 1
+            suma += 1
         else:
             diccionario["VHL type: " + v] = 0
+    if(suma > 0):
+        diccionario["hasVHLType"] = 1
+    else:
+        diccionario["hasVHLType"] = 0
     diccionario["Protein sequence"] = i["Protein_sequence"]
-    description = list(coleccion.distinct(key = "Case.Disease.Description", filter = {"Mutation_type": "Missense", "Mutation": i["Mutation"]}))
+    description = list(coleccion.distinct(key = "Case.Disease.Description",
+    filter = {"Mutation_type": "Missense", "Mutation": i["Mutation"]}))
     for j in RCC_detail:
         if(j in description):
             diccionario["Carcinoma/RCC: " + j] = 1
         else:
             diccionario["Carcinoma/RCC: " + j] = 0
-    print(i)
     try:
         diccionario["SDM: WT_DEPTH"] = i["sdm_WT_DEPTH"]
     except:
